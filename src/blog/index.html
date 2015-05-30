@@ -1,0 +1,47 @@
+---
+layout: page
+title:  "Blog"
+class: blog
+description: "A nerdy blog filled with insight into my design processes and sometimes, even nerdier things."
+---
+
+<!-- <div class="blog__filter">
+Dropdown arrow here.
+</div> -->
+
+<div class="blog__posts__column">
+
+    {% for post in site.categories.blog %}
+      {% if post.condensed == false %}
+
+      {% include blog-full.html %}
+
+  {% endif %}
+    {% endfor %}
+
+      {% for post in site.categories.blog %}
+      {% if post.condensed == true %}
+
+<ul class="blog__posts--condensed">
+      <li class="blog__posts--condensed__li m-t-xxs">
+        <a class="blog__posts--condensed__thumbnail" href="{{ site.baseurl }}{{ post.id }}">
+        <img src="{{ site.baseurl }}/img{{ post.thumbnail }}">
+        </a>
+        <div class="blog__posts--condensed__block">
+          <ul class="blog__posts--condensed__subcategories">
+          {% for subcategory in post.subcategories %}
+            <li class="blog__posts--condensed__subcategories__item">{{ subcategory }}</li>
+          {% endfor %}
+          </ul>
+          <a class="blog__posts--condensed__title p-t-xxs" href="{{ site.baseurl }}{{ post.id }}"><h4>{{ post.title }}</h4></a>
+          <time class="blog__posts--condensed__date m-v-xxs">{{ post.date | date: "%B %-d, %Y" }}</time>
+          <a class="blog__posts--condensed__cta" href="{{ site.baseurl }}{{ post.id }}">Read more</a>
+        </div>
+      </li></a>
+  </ul>
+        {% endif %}
+    {% endfor %}
+
+</div>
+
+{% include blog-sidebar.html %}

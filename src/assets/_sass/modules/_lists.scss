@@ -1,0 +1,49 @@
+// PRESS + SPEAKING LIST STYLES
+
+@mixin press-speaking-lists {
+
+  &__block { /* List item. */
+      display: inline-block;
+      width: 100%;
+      border-bottom: 1px solid $extra-light-gray;
+      padding: .8em 0;
+
+      &:last-child {
+        border-width: 0;
+      }
+    }
+
+  &__title {
+      width: 100%;
+      float: left;
+      margin: .2em 0;
+      color: $primary-color;
+      &:after {
+        font-family: "FontAwesome";
+        content: "\f08e";
+        color: $light-gray;
+        font-size: .7em;
+        margin-left: .5em;
+        @include link-hover;
+      }
+      &:hover:after {
+        // color: $secondary-color;
+        // @include link-hover;
+      }
+    }
+
+    &__organization {
+      width: 100%;
+      float: left;
+      font-size: .9em;
+      font-style: italic;
+      font-weight: bold;
+      color: $mid-gray;
+    }
+
+    &__date {
+      width: 100%;
+      float: left;
+      font-size: .85em;
+    }
+  }

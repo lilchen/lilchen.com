@@ -1,0 +1,32 @@
+.twitter {
+  &__container {
+    margin-bottom: 1em;
+    display: block;
+  }
+}
+
+blockquote.twitter-tweet {
+  font-family: $primary-typeface;
+  display: inline-block;
+  padding: .5em 0;
+  margin: 2em 0;
+  max-width: 468px;
+  border: #ddd 1px solid;
+  border-top-color: #eee;
+  border-bottom-color: #bbb;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  color: #000;
+}
+ 
+blockquote.twitter-tweet p {
+  margin: 0 5px 10px 0;
+  font-style: normal;
+}
+ 
+blockquote.twitter-tweet a[href^="https://twitter.com"] {
+  font-weight: normal;
+  color: #666;
+  font-size: 12px;
+  display: inline-block; 
+}

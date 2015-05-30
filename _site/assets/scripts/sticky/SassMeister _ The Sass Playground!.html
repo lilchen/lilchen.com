@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)http://sassmeister.com/ -->
+<html class=" js no-touch localstorage"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript" src="./SassMeister _ The Sass Playground!_files/85efbc3dc4"></script><script src="./SassMeister _ The Sass Playground!_files/nr-632.min.js"></script><script type="text/javascript" async="" src="./SassMeister _ The Sass Playground!_files/ga.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"85efbc3dc4","applicationID":"1542250","transactionName":"dw4PFhFdDQ5URRhiUFoAFRACHTIDQkR6VFBHFQQQIkIRTXZyYxE=","queueTime":11,"applicationTime":4,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-632.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):(o[e]||(o[e]=[]),void o[e].push(n))}var r=e("ee").create(),o={};n.exports=t,t.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=(e(2),window),f=u.document,s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+
+  <title>SassMeister | The Sass Playground!</title>
+
+  <meta http-equiv="Content-Language" content="en-us">
+  <meta name="description" content="SassMeister is a playground for Sass. Add some Sass and SassMeister will show you the rendered CSS.">
+  <meta name="author" content="Jed Foster and Dale Sande">
+
+  <!--  Mobile Viewport Fix, use at own risk -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+
+  <link rel="stylesheet" href="http://sassmeister.com/css/style-ed409c4c13e521e1.css">
+
+  <script src="./SassMeister _ The Sass Playground!_files/modernizr-7577839b16ac44b1.js"></script>
+  <script>document.domain = 'sassmeister.com';</script>
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+
+<body class="app">
+  <header class="site_header">
+
+  <a href="http://sassmeister.com/about" class="logo" title="The sassiest way to play with Sass, Compass, &amp; LibSass!"><span class="alt">SassMeister</span></a>
+
+  <nav>
+    <a id="toggle_css" data-state="hide"><span class="alt">CSS</span></a>
+
+    <a id="toggle_html" data-state="hide" class="show"><span class="alt">HTML</span></a>
+
+
+    <div id="share_actions" class="hide">
+      <span class="jump-icon"><span class="alt">Share</span></span>
+      <ul>
+        <li>
+          <label>Embed code:</label>
+            <textarea onclick="this.focus();this.select();" readonly="readonly"></textarea>
+        </li>
+      </ul>
+    </div>
+
+
+    <div>
+      <span class="cloud-icon"><span class="alt">Save</span></span>
+      <ul id="cloud_actions">
+        <li><a href="http://sassmeister.com/authorize" class="github"><span>Log in with your GitHub account to save gists</span></a></li>
+        <li><a class="reset-icon" id="reset"><span>Reset</span></a></li>
+      </ul>
+    </div>
+
+
+    <a id="open-controls" class="control-icon" title="Open control panel"><span class="alt">Control panel</span></a>
+
+
+    <a href="javascript:(function(e,a,g,h,f,c,b,d){if(!(f=e.jQuery)||g>f.fn.jquery||h(f)){c=a.createElement('script');c.type='text/javascript';c.src='http://ajax.googleapis.com/ajax/libs/jquery/'+g+'/jquery.min.js';c.onload=c.onreadystatechange=function(){if(!b&&(!(d=this.readyState)||d=='loaded'||d=='complete')){h((f=e.jQuery).noConflict(1),b=1);f(c).remove()}};a.documentElement.childNodes[0].appendChild(c)}})(window,document,'1.4.2',function($,L){var gist_re=/^https?\:\/\/gist\.github\.com\/(\d*)/i,rel_re=/^\/?(\d+)$/,on_gist=gist_re.test(location.href);if(on_gist){location.href='http://sassmeister.com/gist'+location.pathname;}else{$('a').each(function(){var b=$(this).attr('href')||'',a=b.match(gist_re);if(on_gist&&!(a&&a[1])){a=b.match(rel_re)}if(a&&a[1]){$(this).after(' <a href="http://sassmeister.com/gist/'+a[1]+'">[sassmeister.com/gist]</a>')}});}});" class="bookmark-icon" title="I am a bookmarklet, drag me into your bookmark bar and click me when you&#39;re on a Gist page with Sass. It will be awesome!"><span class="alt">SassMeister Bookmarklet</span></a>
+
+    <a href="http://sassmeister.com/authorize" class="github" title="Login with Github" id="github-auth"><span class="alt">Login with Github</span></a>
+  </nav>
+</header>
+
+
+  <div id="control-column">
+  <a class="control-icon"></a>
+
+  <div class="control-container promo">
+    <fieldset>
+      <h2>Sass</h2>
+
+      <fieldset data-event-name="SassVersion">
+        <h3 class="version">Compiler</h3>
+
+        <div class="fancy_dropdown"><span style="z-index: 14;">LibSass 3.2.4</span><input type="hidden" name="version"><div style="top: 31px; left: -9000px; width: 100%;"><ul><li data-value="lib"><span>LibSass 3.2.4</span></li><li data-value="3.4" style="transform: none;"><span>3.4.13</span></li><li data-value="3.3" style="transform: none;"><span>3.3.14</span></li><li data-value="3.2" style="transform: none;"><span>3.2.19</span></li></ul></div></div>
+
+
+      </fieldset>
+
+      <h3 class="syntax">Syntax</h3>
+
+      <fieldset class="syntax-toggle-group" data-event-name="SassSyntax">
+        <input type="radio" name="syntax" value="scss" id="syntax-scss">
+        <label for="syntax-scss" data-toggle-input="sass">SCSS</label>
+
+        <input type="radio" name="syntax" value="sass" id="syntax-sass">
+        <label for="syntax-sass" data-toggle-input="sass">Sass</label>
+
+        <span></span>
+      </fieldset>
+
+      <div id="extension_list">
+        <h3 class="selected">Extensions <i>(Inserted at cursor)</i></h3>
+
+        <ol><li><a data-import="bourbon/bourbon">Bourbon</a>&nbsp;&nbsp;(v4.2.3)</li><li><a data-import="box">Box</a>&nbsp;&nbsp;(v0.1.2)</li><li><a data-import="breakpoint">Breakpoint</a>&nbsp;&nbsp;(v2.5.0)</li><li><a data-import="color-me-sass">ColorMeSass</a></li><li><a data-import="compass-mixins">compass-mixins</a>&nbsp;&nbsp;(v1.0.2)</li><li><a data-import="foundation">Foundation</a>&nbsp;&nbsp;(v5.5.2)</li><li><a data-import="garnish">Garnish</a>&nbsp;&nbsp;(v0.2.1)</li><li><a data-import="guff">Guff</a>&nbsp;&nbsp;(v1.0.1)</li><li><a data-import="jeet/index">Jeet</a>&nbsp;&nbsp;(v6.1.2)</li><li><a data-import="juice">Juice</a>&nbsp;&nbsp;(v1.0.1)</li><li><a data-import="math">MathSass</a>&nbsp;&nbsp;(v0.9.5)</li><li><a data-import="modular-scale">Modular Scale</a>&nbsp;&nbsp;(v2.0.9)</li><li><a data-import="bourbon/bourbon,neat/neat">Neat</a>&nbsp;&nbsp;(v1.7.2)</li><li><a data-import="sass-list-maps">Sass List–Maps</a>&nbsp;&nbsp;(v1.0.0)</li><li><a data-import="color-helpers">Sass Color Helpers</a>&nbsp;&nbsp;(v2.0.0)</li><li><a data-import="sassdash">Sassdash</a>&nbsp;&nbsp;(v0.4.2)</li><li><a data-import="susy">Susy</a>&nbsp;&nbsp;(v2.2.5)</li><li><a data-import="toolkit">Toolkit</a>&nbsp;&nbsp;(v2.9.0)</li><li><a data-import="true">True</a>&nbsp;&nbsp;(v2.0.2)</li><li><a data-import="singularity">Singularity.gs</a>&nbsp;&nbsp;(v1.6.2)</li></ol>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <h2>CSS</h2>
+
+      <fieldset class="output-toggle-group" data-event-name="CSSOutput">
+        <input type="radio" name="output-style" value="expanded" id="expanded-output">
+        <label for="expanded-output" data-toggle-input="css">expanded</label>
+
+        <input type="radio" name="output-style" value="nested" id="nested-output">
+        <label for="nested-output" data-toggle-input="css">nested</label>
+
+        <input type="radio" name="output-style" value="compact" id="compact-output">
+        <label for="compact-output" data-toggle-input="css">compact</label>
+
+        <input type="radio" name="output-style" value="compressed" id="compressed-output">
+        <label for="compressed-output" data-toggle-input="css">compressed</label>
+
+        <span></span>
+      </fieldset>
+
+      <p class="libsass-output-note">Note: LibSass currently only supports <code>nested</code> and <code>compressed</code> output. See <a href="https://github.com/hcatlin/libsass/issues/233" target="_blank">this issue</a> for details.</p>
+    </fieldset>
+
+    <fieldset>
+      <h2>HTML</h2>
+
+      <fieldset class="html-toggle-group" data-event-name="HTMLSyntax">
+        <input type="radio" name="html-syntax" value="HTML" id="html-html">
+        <label for="html-html" data-toggle-input="html">HTML</label>
+
+        <input type="radio" name="html-syntax" value="Haml" id="html-haml">
+        <label for="html-haml" data-toggle-input="html">Haml</label>
+
+        <input type="radio" name="html-syntax" value="Markdown" id="html-mkdn">
+        <label for="html-mkdn" data-toggle-input="html">Markdown</label>
+
+        <input type="radio" name="html-syntax" value="Textile" id="html-txtl">
+        <label for="html-txtl" data-toggle-input="html">Textile</label>
+
+        <input type="radio" name="html-syntax" value="Jade" id="html-jade">
+        <label for="html-jade" data-toggle-input="html">Jade</label>
+
+        <span></span>
+      </fieldset>
+    </fieldset>
+
+    <fieldset class="edit-prefs">
+      <h2>Editor</h2>
+
+      <fieldset>
+        <h3 class="theme">Theme</h3>
+        <p>
+          <div class="fancy_dropdown"><span style="z-index: 19;">Tomorrow</span><input type="hidden" name="theme"><div style="top: 31px; left: -9000px; width: 100%;"><ul><li data-value="tomorrow"><span>Tomorrow</span></li><li data-value="dawn"><span>Dawn</span></li><li data-value="github"><span>GitHub</span></li><li data-value="kuroir"><span>Kuroir</span></li><li data-value="solarized-light"><span>Solarized Light</span></li><li data-value="merbivore-soft"><span>Merbivore Soft</span></li><li data-value="monokai" style="transform: none;"><span>Monokai</span></li><li data-value="solarized-dark" style="transform: none;"><span>Solarized Dark</span></li><li data-value="tomorrow-night-eighties" style="transform: none;"><span>Tomorrow Night Eighties</span></li></ul></div></div>
+        </p>
+        <p>
+          <input type="checkbox" name="emmet" id="enable-emmet" value="true">
+          <label for="enable-emmet">Enable Emmet support</label>
+        </p>
+        <p>
+          <input type="checkbox" name="vim" id="enable-vim" value="true">
+          <label for="enable-vim">Use Vim keybindings</label>
+        </p>
+        <p>
+          <input type="checkbox" name="scrollPastEnd" id="enable-scrollPastEnd" value="true">
+          <label for="enable-scrollPastEnd">Scroll Past End</label>
+        </p>
+      </fieldset>
+    </fieldset>
+  </div>
+
+  <div id="promo">
+    <section class="swag-promo">
+      <a href="http://devswag.com/products/sassmeister-stickers-4" class="swag-promo" target="_blank">
+        <h1>SassMeister Stickers</h1>
+        <p><img src="./SassMeister _ The Sass Playground!_files/sassmeister-detail-v02_medium.jpg"> Get sweet, sassy stickers &amp; help support SassMeister.</p>
+      </a>
+    </section>
+  </div>
+</div>
+
+<div id="control-column-bg"></div>
+
+
+  <section class="main_body">
+  <div class="editor-header" id="mobile-tabs">
+  <h2 class="sass-syntax-display" data-tab="sass">SCSS</h2>
+  <h2 data-tab="css">CSS</h2>
+  
+    <h2 class="html-syntax-display" data-tab="html">HTML</h2>
+    <h2 data-tab="rendered">Result</h2>
+  
+</div>
+
+<div id="casement">
+  <div id="source" style="position: absolute; top: 0%; right: 0px; bottom: 0%; left: 0px;">
+    <div class="panel" data-name="sass" style="position: absolute; top: 0px; right: 50%; bottom: 0px; left: 0%;">
+      <div class="edit_container">
+  <div class="editor-header">
+    <h2 class="sass-syntax-display">SCSS</h2>
+  </div>
+
+  <div class="editor-mask">
+    <div class="editor-wrapper">
+      <div class="editor ace_editor ace-tomorrow ace_focus" id="sass"><textarea class="ace_text-input" wrap="off" spellcheck="false" style="bottom: 551px; height: 21px; width: 8.09484375px; right: 358.3959375px;"></textarea><div class="ace_gutter"><div class="ace_layer ace_gutter-layer ace_folding-enabled" style="margin-top: 0px; height: 614px; width: 50px;"><div class="ace_gutter-cell" style="height: 21px;">1</div><div class="ace_gutter-cell" style="height: 21px;">2<span class="ace_fold-widget ace_start ace_open" style="height: 21px;"></span></div><div class="ace_gutter-cell" style="height: 21px;">3<span class="ace_fold-widget ace_start ace_open" style="height: 21px;"></span></div><div class="ace_gutter-cell" style="height: 21px;">4</div><div class="ace_gutter-cell" style="height: 21px;">5</div><div class="ace_gutter-cell" style="height: 21px;">6<span class="ace_fold-widget ace_start ace_open" style="height: 21px;"></span></div><div class="ace_gutter-cell" style="height: 21px;">7</div><div class="ace_gutter-cell" style="height: 21px;">8</div><div class="ace_gutter-cell" style="height: 21px;">9</div><div class="ace_gutter-cell" style="height: 21px;">10</div></div><div class="ace_gutter-active-line" style="top: 0px; height: 21px;"></div></div><div class="ace_scroller" style="left: 50px; right: 0px; bottom: 0px;"><div class="ace_content" style="margin-top: 0px; width: 670px; height: 614px; margin-left: 0px;"><div class="ace_layer ace_print-margin-layer"><div class="ace_print-margin" style="left: 651.5875px; visibility: visible;"></div></div><div class="ace_layer ace_marker-layer"><div class="ace_active-line" style="height:21px;top:0px;left:0;right:0;"></div></div><div class="ace_layer ace_text-layer" style="padding: 0px 4px;"><div class="ace_line" style="height:21px"><span class="ace_variable">$social</span>:&nbsp;linkedin,&nbsp;facebook,&nbsp;twitter;</div><div class="ace_line" style="height:21px"><span class="ace_keyword">@each</span>&nbsp;<span class="ace_variable">$socialnetwork</span>,&nbsp;<span class="ace_variable">$color</span>&nbsp;in&nbsp;<span class="ace_variable">$social</span>&nbsp;<span class="ace_paren ace_lparen">{</span></div><div class="ace_line" style="height:21px">&nbsp;&nbsp;<span class="ace_variable ace_language">.social-link--</span><span class="ace_keyword ace_operator">#</span><span class="ace_paren ace_lparen">{</span><span class="ace_variable">$socialnetwork</span><span class="ace_paren ace_rparen">}</span>&nbsp;<span class="ace_paren ace_lparen">{</span></div><div class="ace_line" style="height:21px"><span class="ace_indent-guide">&nbsp;&nbsp;</span>&nbsp;&nbsp;<span class="ace_support ace_type">background-color</span>:&nbsp;<span class="ace_variable">$color</span>;</div><div class="ace_line" style="height:21px"><span class="ace_indent-guide">&nbsp;&nbsp;</span>&nbsp;&nbsp;&amp;<span class="ace_variable ace_language">:focus</span>,&nbsp;</div><div class="ace_line" style="height:21px"><span class="ace_indent-guide">&nbsp;&nbsp;</span>&nbsp;&nbsp;&amp;<span class="ace_variable ace_language">:hover</span>&nbsp;<span class="ace_paren ace_lparen">{</span></div><div class="ace_line" style="height:21px"><span class="ace_indent-guide">&nbsp;&nbsp;</span><span class="ace_indent-guide">&nbsp;&nbsp;</span>&nbsp;&nbsp;<span class="ace_support ace_type">background-color</span>:&nbsp;<span class="ace_support ace_function">darken</span><span class="ace_paren ace_lparen">(</span><span class="ace_variable">$color</span>,<span class="ace_constant ace_numeric">5%</span><span class="ace_paren ace_rparen">)</span>;</div><div class="ace_line" style="height:21px"><span class="ace_indent-guide">&nbsp;&nbsp;</span>&nbsp;&nbsp;<span class="ace_paren ace_rparen">}</span>&nbsp;&nbsp;&nbsp;&nbsp;</div><div class="ace_line" style="height:21px">&nbsp;&nbsp;<span class="ace_paren ace_rparen">}</span></div><div class="ace_line" style="height:21px"><span class="ace_paren ace_rparen">}</span></div></div><div class="ace_layer ace_marker-layer"></div><div class="ace_layer ace_cursor-layer"><div class="ace_cursor" style="left: 303.50921875px; top: 0px; width: 8.09484375px; height: 21px;"></div></div></div></div><div style="height: auto; width: auto; top: -100px; left: -100px; visibility: hidden; position: fixed; overflow: visible; white-space: nowrap;">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div><div class="ace_scrollbar" style="width: 20px; overflow-y: scroll; bottom: 0px; display: none;"><div class="ace_scrollbar-inner" style="width: 20px; height: 210px;"></div></div><div class="ace_scrollbar-h" style="height: 20px; display: none; overflow-x: scroll; left: 50px; right: 0px;"><div class="ace_scrollbar-inner" style="height: 20px; width: 670px;"></div></div><div class="ace_gutter-tooltip" style="display: none;"></div></div>
+    </div>
+  </div>
+</div>
+
+    </div><div class="vertical sash" id="sash-y1-0" style="left: 50%;"></div>
+    <div class="panel" data-name="css" style="position: absolute; top: 0px; right: 0%; bottom: 0px; left: 50%;">
+      <div class="edit_container">
+  <div class="editor-header">
+    <h2>CSS</h2>
+    <span id="sass-compiling" class="hide"><span class="timer"></span> Compiling</span>
+    <span id="compile-time" class="fade">Compiled in undefineds</span></div>
+
+  <div class="editor-mask">
+    <div class="editor-wrapper">
+      <div class="editor ace_editor ace-tomorrow" id="css"><textarea class="ace_text-input" wrap="off" spellcheck="false" style="bottom: 551px; height: 21px; width: 8.09484375px; right: 665.90515625px;"></textarea><div class="ace_gutter"><div class="ace_layer ace_gutter-layer ace_folding-enabled" style="margin-top: 0px; height: 614px; width: 42px;"><div class="ace_gutter-cell" style="height: 21px;">1</div><div class="ace_gutter-cell" style="height: 21px;">2</div><div class="ace_gutter-cell" style="height: 21px;">3</div><div class="ace_gutter-cell" style="height: 21px;">4</div><div class="ace_gutter-cell" style="height: 21px;">5</div></div><div class="ace_gutter-active-line" style="top: 0px; height: 21px;"></div></div><div class="ace_scroller" style="left: 42px; right: 0px; bottom: 0px;"><div class="ace_content" style="margin-top: 0px; width: 678px; height: 614px; margin-left: 0px;"><div class="ace_layer ace_print-margin-layer"><div class="ace_print-margin" style="left: 651.5875px; visibility: visible;"></div></div><div class="ace_layer ace_marker-layer"><div class="ace_active-line" style="height:21px;top:0px;left:0;right:0;"></div></div><div class="ace_layer ace_text-layer" style="padding: 0px 4px;"><div class="ace_line" style="height:21px"><span class="ace_constant">argument</span>&nbsp;`$<span class="ace_constant">color</span>`&nbsp;<span class="ace_constant">of</span>&nbsp;`<span class="ace_constant">darken</span>($<span class="ace_constant">color</span>,&nbsp;$<span class="ace_constant">amount</span>)`&nbsp;<span class="ace_constant">must</span>&nbsp;<span class="ace_constant">be</span>&nbsp;<span class="ace_constant">a</span>&nbsp;<span class="ace_constant">color</span></div><div class="ace_line" style="height:21px"></div><div class="ace_line" style="height:21px"><span class="ace_constant">Backtrace</span>:</div><div class="ace_line" style="height:21px">&nbsp;&nbsp;<span class="ace_constant">stdin</span><span class="ace_string">:7</span>,&nbsp;<span class="ace_constant">in</span>&nbsp;<span class="ace_constant">function</span>&nbsp;`<span class="ace_constant">darken</span>`</div><div class="ace_line" style="height:21px">&nbsp;&nbsp;<span class="ace_constant">stdin</span><span class="ace_string">:7</span>&nbsp;<span class="ace_constant">on</span>&nbsp;<span class="ace_constant">line</span>&nbsp;<span class="ace_constant">7</span>&nbsp;<span class="ace_constant">at</span>&nbsp;<span class="ace_constant">column</span>&nbsp;<span class="ace_constant">25</span></div></div><div class="ace_layer ace_marker-layer"></div><div class="ace_layer ace_cursor-layer ace_hidden-cursors"><div class="ace_cursor" style="left: 4px; top: 0px; width: 8.09484375px; height: 21px;"></div></div></div></div><div style="height: auto; width: auto; top: -100px; left: -100px; visibility: hidden; position: fixed; overflow: visible; white-space: nowrap;">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div><div class="ace_scrollbar" style="width: 20px; overflow-y: scroll; bottom: 0px; display: none;"><div class="ace_scrollbar-inner" style="width: 20px; height: 105px;"></div></div><div class="ace_scrollbar-h" style="height: 20px; display: none; overflow-x: scroll; left: 42px; right: 0px;"><div class="ace_scrollbar-inner" style="height: 20px; width: 678px;"></div></div></div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <div class="panel" data-name="html" style="display: none;">
+      <div class="edit_container">
+  <div class="editor-header">
+    <h2 class="html-syntax-display">HTML</h2>
+  </div>
+
+  <div class="editor-mask">
+    <div class="editor-wrapper">
+      <div class="editor ace_editor ace-tomorrow" id="html"><textarea class="ace_text-input" wrap="off" spellcheck="false" style="bottom: 2000em;"></textarea><div class="ace_gutter"><div class="ace_layer ace_gutter-layer ace_folding-enabled"></div><div class="ace_gutter-active-line"></div></div><div class="ace_scroller" style="left: 0px; right: 0px; bottom: 0px;"><div class="ace_content"><div class="ace_layer ace_print-margin-layer"><div class="ace_print-margin" style="left: 652.1125px; visibility: visible;"></div></div><div class="ace_layer ace_marker-layer"></div><div class="ace_layer ace_text-layer" style="padding: 0px 4px;"></div><div class="ace_layer ace_marker-layer"></div><div class="ace_layer ace_cursor-layer ace_hidden-cursors"><div class="ace_cursor"></div></div></div></div><div style="height: auto; width: auto; top: -100px; left: -100px; visibility: hidden; position: fixed; overflow: visible; white-space: nowrap;">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div><div class="ace_scrollbar" style="width: 20px; display: none; overflow-y: scroll; bottom: 0px;"><div class="ace_scrollbar-inner" style="width: 20px;"></div></div><div class="ace_scrollbar-h" style="height: 20px; display: none; overflow-x: scroll; left: 0px; right: 0px;"><div class="ace_scrollbar-inner" style="height: 20px;"></div></div></div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+  <div class="panel" id="rendered" data-name="rendered" style="display: none;">
+    <iframe id="rendered-html" sandbox="allow-scripts allow-same-origin" src="./SassMeister _ The Sass Playground!_files/saved_resource.html"></iframe>
+
+    <div id="sash_cover" style="display: none;"></div>
+  </div>
+</div>
+
+<script>
+  var sandbox = 'http://sandbox.sassmeister.com';
+  var gist = null;
+  var gist_output =  null;
+  
+</script>
+
+  </section>
+
+  <footer>
+  <p class="info">
+    <a href="http://sassmeister.com/about#support" title="Help keep the lights on." class="heart-icon"><span>Support SassMeister</span></a>
+    <a href="https://twitter.com/sassmeisterapp" title="Follow @sassmeisterapp" class="twitter-icon" target="_blank"><span>Follow @sassmeisterapp</span></a>
+    <a href="http://sassmeister.com/about" title="About SassMeister"><span>About</span></a>
+  </p>
+  
+  <p class="copyright">© 2015 <a href="http://jedfoster.com/" target="_blank">Jed Foster</a> &amp; <a href="http://www.dalesande.com/" target="_blank">Dale Sande</a></p>
+</footer>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-35407426-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <script src="./SassMeister _ The Sass Playground!_files/jquery-cb875196230e1e7e.js"></script>
+  <script src="./SassMeister _ The Sass Playground!_files/utilities-6b664947498769a4.js"></script>
+  <script src="./SassMeister _ The Sass Playground!_files/application-b3cb2a839cbd1a8c.js"></script>
+
+
+</body></html>

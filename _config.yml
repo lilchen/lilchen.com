@@ -1,0 +1,32 @@
+# Site settings
+title: Lil Chen – Designer and nerd
+author: Lil Chen
+description: "This site is filled with the design work and nerdy ramblings of Lil Chen. Enter at your own risk."
+# baseurl: "/z" # the subpath of your site, e.g. /blog
+# url: "" #Activate this one when testing local.
+url: "http://www.lilchen.com" # the base hostname & protocol for your site like http://domain.com
+email: hello@lilchen.com
+twitter_username: _lilchen
+github_username:  lilchen
+
+# Build Settings
+permalink: /:categories/:title/
+markdown: redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+# paginate:     10
+source: src
+exclude: ['src/assets/_sass/vendor', 'src/assets/fonts', '.sass-cache', 'config.codekit', '.codekit-cache', '.DS_Store']
+# include: ['']
+
+# Sass  
+sass:
+  sass_dir: _sass
+  compressed: true
+
+# Meta Info
+locale: en_US
+avatar:             avatar.png
+wide_avatar:        wide-avatar.jpg
+fb_admins:          https://www.facebook.com/chen.lil
+fb_appid:           988593427825526

@@ -1,0 +1,29 @@
+// WIDTHS
+
+$width-null: 0px;
+$width-smallest: 320px;
+$width-small: 450px;
+$width-medium: 720px;
+$width-large: 850px;
+$width-largest: 1200px;
+
+// COLUMNS
+
+$small-screen-col: 4;
+$medium-screen-col: 10;
+$large-screen-col: 12;
+
+
+// IMPORTS
+
+@import "vendor/neat/neat-helpers";
+$visual-grid: false !global;
+// @import "vendor/neat/settings/visual-grid";
+
+
+// BREAKPOINTS
+
+$tiny-screen: new-breakpoint(max-width $width-smallest $small-screen-col);
+$small-screen: new-breakpoint(min-width $width-null max-width $width-small $small-screen-col);
+$medium-screen: new-breakpoint(min-width $width-medium max-width $width-large $medium-screen-col);
+$large-screen: new-breakpoint(min-width $width-large $large-screen-col);
