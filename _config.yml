@@ -15,8 +15,8 @@ markdown: redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 # paginate:     10
-source: src
-exclude: ['src/assets/_sass/vendor', 'src/assets/fonts', '.sass-cache', 'config.codekit', '.codekit-cache', '.DS_Store']
+#source: src
+exclude: ['assets/_sass/vendor', 'assets/fonts', '.sass-cache', 'config.codekit', '.codekit-cache', '.DS_Store']
 # include: ['']
 
 # Sass  
