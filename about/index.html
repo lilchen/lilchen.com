@@ -38,6 +38,8 @@ class: about
 <div class="about__list__wrapper m-t-l">    
     <ul class="about__list m-b-m">
     <h5 class="about__list__header m-b-s"><span>Press</span></h5>
+
+
 {% assign sorted_press = (site.data.press | sort: 'date' ) %}
 {% for press in sorted_press reversed %}
     {% if press.published == true %}

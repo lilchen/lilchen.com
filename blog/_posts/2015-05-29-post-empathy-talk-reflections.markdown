@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Post TEDYouth Empathy Talk Reflections
+title:      Post TEDYouth Empathy Talk Reflections Testing
 date:       2015-05-29 01:20:19
 description: Rapidfire thoughts on feedback observed after my TEDYouth talk.
 thumbnail:   /blog/tedyouth_stage.jpg

@@ -3,10 +3,10 @@
   <channel>
     <title>Lil Chen – Designer and nerd</title>
     <description>This site is filled with the design work and nerdy ramblings of Lil Chen. Enter at your own risk.</description>
-    <link>http://www.lilchen.com/</link>
-    <atom:link href="http://www.lilchen.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 May 2015 14:36:16 -0400</pubDate>
-    <lastBuildDate>Sat, 30 May 2015 14:36:16 -0400</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 30 May 2015 17:40:31 -0400</pubDate>
+    <lastBuildDate>Sat, 30 May 2015 17:40:31 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -32,8 +32,8 @@
      alt=&quot;crossfit hartford bags&quot;&gt;          &lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jan 8000 17:24:46 -0500</pubDate>
-        <link>http://www.lilchen.com/work/crossfit-hartford/</link>
-        <guid isPermaLink="true">http://www.lilchen.com/work/crossfit-hartford/</guid>
+        <link>/work/crossfit-hartford/</link>
+        <guid isPermaLink="true">/work/crossfit-hartford/</guid>
         
         
         <category>work</category>
@@ -75,8 +75,8 @@
      alt=&quot;ted holiday card interior bow&quot;&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jan 7000 17:24:46 -0500</pubDate>
-        <link>http://www.lilchen.com/work/ted-holiday-card/</link>
-        <guid isPermaLink="true">http://www.lilchen.com/work/ted-holiday-card/</guid>
+        <link>/work/ted-holiday-card/</link>
+        <guid isPermaLink="true">/work/ted-holiday-card/</guid>
         
         
         <category>work</category>
@@ -94,8 +94,8 @@
      alt=&quot;storyboard sketches&quot;&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jan 6000 17:24:46 -0500</pubDate>
-        <link>http://www.lilchen.com/work/animated-swiss-poster/</link>
-        <guid isPermaLink="true">http://www.lilchen.com/work/animated-swiss-poster/</guid>
+        <link>/work/animated-swiss-poster/</link>
+        <guid isPermaLink="true">/work/animated-swiss-poster/</guid>
         
         
         <category>work</category>
@@ -151,8 +151,8 @@
     
 </description>
         <pubDate>Wed, 01 Jan 5000 17:24:46 -0500</pubDate>
-        <link>http://www.lilchen.com/work/the-new-meta/</link>
-        <guid isPermaLink="true">http://www.lilchen.com/work/the-new-meta/</guid>
+        <link>/work/the-new-meta/</link>
+        <guid isPermaLink="true">/work/the-new-meta/</guid>
         
         
         <category>work</category>
@@ -198,8 +198,8 @@
      &lt;/div&gt;
 </description>
         <pubDate>Sat, 01 Jan 4000 17:24:46 -0500</pubDate>
-        <link>http://www.lilchen.com/work/tea-party-series/</link>
-        <guid isPermaLink="true">http://www.lilchen.com/work/tea-party-series/</guid>
+        <link>/work/tea-party-series/</link>
+        <guid isPermaLink="true">/work/tea-party-series/</guid>
         
         
         <category>work</category>
@@ -237,8 +237,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 01 Jan 3000 17:24:46 -0500</pubDate>
-        <link>http://www.lilchen.com/work/ted-quotes/</link>
-        <guid isPermaLink="true">http://www.lilchen.com/work/ted-quotes/</guid>
+        <link>/work/ted-quotes/</link>
+        <guid isPermaLink="true">/work/ted-quotes/</guid>
         
         
         <category>work</category>
@@ -246,7 +246,7 @@
       </item>
     
       <item>
-        <title>Post TEDYouth Empathy Talk Reflections</title>
+        <title>Post TEDYouth Empathy Talk Reflections Testing</title>
         <description>&lt;p&gt;My &lt;a href=&quot;https://www.youtube.com/watch?v=orOa-yRL4NI&quot; target=&quot;_blank&quot;&gt;TEDYouth talk&lt;/a&gt; was recently released online! To my surprise, I was blown away by how incredible and receptive everyone has been of my message. The feedback I have received thus far has been overwhelmingly positive. I spent most of the last two days thanking everybody who watched and reached out with their support.&lt;/p&gt;
 
 &lt;p&gt;With that said, I decided to select and respond to some feedback I somewhat consistently encountered. This post is by no means an accurate representation of all the types of feedback I received! :) Just a couple of &lt;strong&gt;quick thoughts&lt;/strong&gt; I wanted to jot out. I mean quick when I say it, I spent a portion of writing this while trouble-shooting my site (as evidenced by my grammar). =D&lt;/p&gt;
@@ -366,8 +366,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 29 May 2015 08:31:19 -0400</pubDate>
-        <link>http://www.lilchen.com/blog/post-empathy-talk-reflections/</link>
-        <guid isPermaLink="true">http://www.lilchen.com/blog/post-empathy-talk-reflections/</guid>
+        <link>/blog/post-empathy-talk-reflections/</link>
+        <guid isPermaLink="true">/blog/post-empathy-talk-reflections/</guid>
         
         <category>testing</category>
         
@@ -436,8 +436,8 @@
 &lt;p&gt;&lt;em&gt;Follow me on Twitter at &lt;a href=&quot;http://www.twitter.com/_lilchen&quot;&gt;@_lilchen&lt;/a&gt; to stay in touch!&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 02 Apr 2015 08:15:00 -0400</pubDate>
-        <link>http://www.lilchen.com/blog/advice-to-younger-designers/</link>
-        <guid isPermaLink="true">http://www.lilchen.com/blog/advice-to-younger-designers/</guid>
+        <link>/blog/advice-to-younger-designers/</link>
+        <guid isPermaLink="true">/blog/advice-to-younger-designers/</guid>
         
         <category>design</category>
         
@@ -633,8 +633,8 @@
 &lt;p&gt;&lt;em&gt;That&amp;rsquo;s a wrap! Catch me on &lt;a href=&quot;http://www.twitter.com/_lilchen&quot;&gt;Twitter&lt;/a&gt; for more silliness/nerdiness/obsessiveness.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 Mar 2015 08:31:19 -0400</pubDate>
-        <link>http://www.lilchen.com/blog/insight-into-stream-overlay/</link>
-        <guid isPermaLink="true">http://www.lilchen.com/blog/insight-into-stream-overlay/</guid>
+        <link>/blog/insight-into-stream-overlay/</link>
+        <guid isPermaLink="true">/blog/insight-into-stream-overlay/</guid>
         
         <category>overlay</category>
         
@@ -704,8 +704,8 @@
 &lt;p&gt;&lt;small&gt;Special shoutout to friend and old school CT Smasher &lt;a href=&quot;http://jamstunna.tumblr.com/&quot; target=&quot;_blank&quot;&gt;Jam Stunna&lt;/a&gt; for encouraging me to start writing about my concerns on these issues. He also gets credit for helping me edit my terribad grammar.&lt;/small&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Feb 2014 07:31:19 -0500</pubDate>
-        <link>http://www.lilchen.com/blog/why-awareness-in-smash-is-vital/</link>
-        <guid isPermaLink="true">http://www.lilchen.com/blog/why-awareness-in-smash-is-vital/</guid>
+        <link>/blog/why-awareness-in-smash-is-vital/</link>
+        <guid isPermaLink="true">/blog/why-awareness-in-smash-is-vital/</guid>
         
         <category>feminism</category>
         

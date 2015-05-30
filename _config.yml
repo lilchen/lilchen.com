@@ -3,8 +3,8 @@ title: Lil Chen – Designer and nerd
 author: Lil Chen
 description: "This site is filled with the design work and nerdy ramblings of Lil Chen. Enter at your own risk."
 # baseurl: "/z" # the subpath of your site, e.g. /blog
-# url: "" #Activate this one when testing local.
-url: "http://www.lilchen.com" # the base hostname & protocol for your site like http://domain.com
+url: "" #Activate this one when testing local.
+# url: "http://www.lilchen.com" # the base hostname & protocol for your site like http://domain.com
 email: hello@lilchen.com
 twitter_username: _lilchen
 github_username:  lilchen
@@ -15,8 +15,7 @@ markdown: redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 # paginate:     10
-#source: src
-exclude: ['assets/_sass/vendor', 'assets/fonts', '.sass-cache', 'config.codekit', '.codekit-cache', '.DS_Store']
+exclude: ['assets/_sass', 'Guardfile', 'Gemfile', 'Gemfile.lock', 'README.markdown', '.sass-cache', 'config.codekit', '.codekit-cache', '.DS_Store']
 # include: ['']
 
 # Sass  
