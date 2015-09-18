@@ -1,0 +1,127 @@
+// LINKS
+
+@mixin link-hover {
+  @include transition(color .3s ease-out 0s);
+}
+
+// DATES
+
+@mixin date-style {
+  color: $dark-gray;
+  font-size: .8em;
+  width: 100%;
+}
+
+// CTA BUTTON
+
+@mixin cta($text-color, $border-color, $background-color, $text-color-hover, $border-color-hover, $background-color-hover, $arrow-color, $arrow-hover-color) {
+  font-family: $secondary-typeface;
+  font-weight: bold;
+  font-size: .9rem;
+  text-transform: uppercase;
+  line-height: 1rem;
+  width: auto;
+  background: $background-color;
+  color: $text-color;
+  border: 3px solid $border-color;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  text-align: center;
+  display: inline-block;
+  padding: .4rem .5rem;
+  @include cta-transition;
+
+  &:hover {
+    background: $background-color-hover;
+    color: $text-color-hover;
+    border: 3px solid $border-color-hover;
+    @include cta-transition;
+    &:after {
+      color: $arrow-hover-color;
+      padding-left: 1rem;
+      @include transition(padding-left .2s ease-out 0s);
+    }
+  }
+
+  &:after {
+    color: $arrow-color;
+    content: "\2192";
+    font-family: helvetica;
+    padding-left: .5rem;
+    // vertical-align: -1px;
+    @include transition(padding-left .2s ease-in 0s);
+  }
+}
+
+@mixin cta-transition {
+ @include transition(opacity .6s ease-in 0s, border-color .6s ease-in 0s, color .6s ease-in 0s, background-color .4s ease-in .1s);
+}
+
+// SUBCATEGORY BLOCKS
+
+@mixin subcategory-block-style {
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .65rem;
+  letter-spacing: .08em;
+  padding: .3rem;
+  margin-right: .5em;
+  margin-bottom: .6em;
+  background: $subcategory-block-color;
+  color: $subcategory-type-color;
+}
+
+// LINE HEADERS
+
+@mixin line-header {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@mixin line-wrap {
+  position: relative;
+  text-align: left;
+  & span {
+    background: #fff;
+    padding: 0 .8em 0 0;
+    position: relative;
+    z-index: 1;
+  }
+  &:before {
+      background: $extra-light-gray;
+      content: "";
+      display: block;
+      height: 3px;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+    }
+    &:before {
+      left: 0;
+  }
+}
+
+@mixin line-wrap-custom ($border-color, $border-thickness, $border-gap) {
+  position: relative;
+  text-align: left;
+    & span {
+      background: #fff;
+      padding: 0 $border-gap 0 $border-gap;
+      position: relative;
+      z-index: 1;
+    }
+    &:before {
+        background: $border-color;
+        content: "";
+        display: block;
+        height: $border-thickness;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+      }
+      &:before {
+        left: 0;
+      }
+    }
+

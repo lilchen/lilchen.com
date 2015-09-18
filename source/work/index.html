@@ -1,0 +1,30 @@
+---
+layout: page
+title:  "Work"
+class: project__grid
+---
+
+    <ul class="project__grid__list m-v-s">
+
+  {% for post in site.categories.work reversed %}
+      <li class="project__grid__block">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="project__grid__block__link">
+          <figure class="project__grid__thumbnail">
+            <img src="{{ site.baseurl }}/img{{ post.id }}/{{ post.image.featured.src }}" srcset="{{ site.baseurl }}/img{{ post.id }}/{{ post.image.featured.srcset.x2 | append: ', ' }}{{ site.baseurl }}/img{{ post.id }}/{{ post.image.featured.srcset.x1 }}" sizes="{{ post.image.featured.sizes }}">
+            <figcaption class="project__grid__block__info">
+              <div class="project__grid__block__info--wrapped">
+                <h3 class="h3 project__grid__block__title">{{ post.title }}</h3>
+                <span class="project__grid__block__tags">{{ post.project.tags | join: ', ' }}</span>
+                <!-- <p class="project__grid__block__blurb">{{ post.description | strip_html | truncatewords: 15 }}</p> -->
+                <strong class="project__grid__block__cta">View project</strong>
+              </div>
+            </figcaption>
+          </figure>
+            </a>
+        </li>
+    {% endfor %}
+        </ul>
+    
+
+
+

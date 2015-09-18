@@ -1,0 +1,67 @@
+---
+layout: page
+title:  "About"
+class: about
+---
+
+
+<div class="about__blurb">
+
+    <p>I am a designer who cares particularly about <strong>communicative</strong>, <strong>systematic</strong>, and <strong>iterative</strong> design. Collaboration is a must in the design process. It brings out the best, both in designers <em>and</em> their work.</p>
+
+    <p>I recently left my former job at <strong>TED</strong> after designing there for the last three and a half years. Who knows what comes next! I hope to find a small but multi-faceted team with whom to collaborate and <strike>work sleepless nights</strike> have design slumber parties.</p>
+
+    <p>I'm also a semi-retired competitive gamer who hails to you from the competitive <strong>Super Smash Brothers Melee</strong> community.</p>
+    
+    <p>After stepping away from competing, I co-founded <a href="http://gamecenter.nyu.edu/event/the-new-meta/" target="_blank">The New Meta</a>, a panel about gender issues women face within competitive gaming spaces. As one of the <a href="http://www.gdconf.com/conference/esports.html" target="_blank">eSports summit advisors</a> at Game Developers Conference, I recently led a panel on growing the participation of women in eSports.</p>
+
+    <p>When possible, I try to tell <a href="https://www.youtube.com/watch?v=orOa-yRL4NI/" target="_blank">my own story</a> to spread awareness around and to promote empathy. I also blog specifically about gaming on my <a href="http://milktea-ssbm.tumblr.com" target="_blank">Tumblr</a>.</p>
+
+</div><!--blurb-->
+
+<div class="about__sidebar">
+    <img class="about__image m-b-s"
+      src="{{ site.baseurl }}/img/site/about-photo.jpg"
+      srcset="{{ site.baseurl }}/img/site/about-photo@2x.jpg 2x,
+              {{ site.baseurl }}/img/site/about-photo.jpg 1x"
+         sizes="100%"  
+         alt="milktea photo">
+</div><!--sidebar-->
+
+<ul class="about__contact m-v-s">
+        <a class="about__contact__button about__contact__button--email" href="mailto:{{ site.email }}">
+        <li><i class="about__contact__button__icon fa fa-envelope"></i> <strong>Email me.</strong></li></a>
+        <a class="about__contact__button about__contact__button--tweet" href="https://www.twitter.com/{{ site.twitter_username }}" target="_blank">
+        <li><i class="about__contact__button__icon fa fa-twitter"></i> <strong>Tweet me.</strong></li></a>
+</ul>
+  
+<div class="about__list__wrapper m-t-l">    
+    <ul class="about__list m-b-m">
+    <h5 class="about__list__header m-b-s"><span>Press</span></h5>
+
+
+{% assign sorted_press = site.data.press | sort_by:date %}
+{% for press in sorted_press reversed %}
+    {% if press.published == true %}
+        <li class="about__list__block">
+        <time class="about__list__date">{{ press.date | date: '%B %d, %Y' }}</time>
+            <a class="h5 about__list__title" href="{{ press.url }}" target="_blank"><cite>{{ press.title }}</cite></a>
+        <em class="about__list__organization">{{ press.organization }}</em>
+        </li>
+    {% endif %}
+  {% endfor %}
+    </ul>
+
+    <ul class="about__list">
+    <h5 class="about__list__header m-b-s"><span>Speaking</span></h5>
+{% assign sorted_speaking = site.data.speaking | sort_by:date %}
+{% for speaking in sorted_speaking reversed %}
+      <li class="about__list__block">
+        <time class="about__list__date">{{ speaking.date | date: '%B %d, %Y' }}</time>
+        <a class="h5 about__list__title" href="{{ speaking.url }}" target="_blank">{{ speaking.title }}</a>
+        <span class="about__list__organization">{{ speaking.organization }}</span>
+      </li>
+  {% endfor %}
+    </ul>
+
+</div>

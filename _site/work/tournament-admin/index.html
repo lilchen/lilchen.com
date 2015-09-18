@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Super Smash Bros. Tournament Admin Panel</title>
+
+  <meta property="og:title" content="Super Smash Bros. Tournament Admin Panel">
+  <meta property="og:type" content="article" >
+  <meta property="og:url" content="/work/tournament-admin/">
+  <meta property="og:image" rel="image_src" type="image/jpeg" content="/img/work/tournament-admin/tournament_admin_duo.jpg">
+  <meta property="og:description" content="Smash.gg is a Smash Brothers startup that provides tournament organizers a platform to register players and conduct tournament brackets. I was tasked with re..." />
+  <meta property="og:site_name" content="Lil Chen – Designer and nerd">
+  <meta property="og:locale" content="en_US">
+  
+  <meta property="article:published_time" content="2500-01-01T17:24:46-05:00">
+  <meta property="article:author" content="https://twitter.com/_lilchen">
+  
+    <meta property="og:see_also" content="/work/crossfit-hartford/">
+  
+    <meta property="og:see_also" content="/work/ted-holiday-card/">
+  
+    <meta property="og:see_also" content="/work/animated-swiss-poster/">
+  
+  
+  
+  <meta property="fb:admins" content="https://www.facebook.com/chen.lil">
+  <meta property="fb:app_id" content="988593427825526">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@_lilchen">
+  <meta name="twitter:creator" content="@_lilchen">
+  <meta name="twitter:title" content="Super Smash Bros. Tournament Admin Panel">
+  <meta name="twitter:description" content="Smash.gg is a Smash Brothers startup that provides tournament organizers a platform to register players and conduct tournament brackets. I was tasked with re...">
+  <meta name="twitter:image" content="/img/work/tournament-admin/tournament_admin_duo.jpg">
+  <meta name="twitter:url" content="/work/tournament-admin/">
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="canonical" href="/work/tournament-admin/">
+  <link rel="alternate" type="application/rss+xml" title="Lil Chen – Designer and nerd" href="/feed.xml">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="/assets/scripts/flickity/flickity.pkgd.min.js"></script>
+  <script src="/assets/scripts/responsive-nav/responsive-nav.js"></script>
+  <script src="/assets/scripts/sticky/jquery.sticky.js"></script>
+  <script src="/assets/scripts/back-to-top/min/main-min.js"></script>
+
+</head>
+
+
+
+<body>
+
+<div class="project wrapper">
+  
+  <header class="site__header">
+
+<div class="site__logo">
+<a class="site__logo__name" href="/"></a>
+</div>
+
+<nav class="nav-collapse">
+  <ul>
+    <li>
+    <a href="/about" >About</a>
+    </li>
+    <li>
+    <a href="/work"  class="nav-active">Work</a>
+    </li>
+    <li>
+    <a href="/blog" >Blog</a>
+    </li>
+  </ul>
+</nav>
+
+</header>
+
+  <article class="project__content page__content">
+
+    <img class="project__image--featured p-b-m" src="/img/work/tournament-admin/tournament_admin_duo.jpg" srcset="/img/work/tournament-admin/tournament_admin_duo@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_duo.jpg 1x" sizes="100%">
+    
+    <div class="project__sidebar m-b-s">
+    <h3 class="project__title">Super Smash Bros. Tournament Admin Panel</h3>
+    
+    
+    </div>
+
+    <div class="project__brief m-t-xxs m-b-m">
+      <p>Smash.gg is a Smash Brothers startup that provides tournament organizers a platform to register players and conduct tournament brackets. I was tasked with redesigning their user-interface for the tournament admin panel. The panel is only accessible to hosts running a bracket.</p>
+    </div>
+
+    <div class="project__summary">
+    <div class="width--full">
+<img src="/img/work/tournament-admin/tournament_admin_before.jpg" srcset="/img/work/tournament-admin/tournament_admin_before@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_before.jpg 1x" sizes="100%" alt="tournament panel before">
+<p class="caption f--l ta--l">Panel before redesign</p>
+</div>
+
+<div class="project__text-wrap">
+  <h4 class="m-b-xs">Requirements</h4>
+  <p>Above is how the tournament panel appeared prior to the redesign. Below are the prerequisites I was presented with. Despite all the details shown, the user must be able to succesfully report the result of one  with only the data of who won and lost. Character choice, stocks remaining, stage used, should all be optional data.</p>
+
+
+  <h6>Needs to show</h6>
+  <ul>
+    <li>Match details (round, phase, identifier)</li>
+    <li>Match status (in progress with timer, completed, upcoming)</li>
+    <li>Players</li>
+  </ul>
+
+  <h6>Functionality</h6>
+  <ul>
+    <li>Report winner by game, characters, stages and stocks left</li>
+      <ul>
+        <li>All information is optional other than winner</li>
+        <li>Next match auto-appears once winner has been selected</li>
+        <li>Minimizing number of taps is important</li>
+        <li>For characters, we will know recent/suggested characters for each player for quick selection</li>
+        </ul>
+    <li>DQ players</li>
+    <li>Mark match in progress</li>
+    <li>Assign station to a match</li>
+    <li>Responsive so organizers can access via desktop or tablet at events</li>
+  </ul>
+</div>
+
+<div class="width--wide">
+<img src="/img/work/tournament-admin/tournament_admin_drafts.jpg" srcset="/img/work/tournament-admin/tournament_admin_drafts@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_drafts.jpg 1x" sizes="100%" alt="tournament panel iterations">   
+<p class="caption f--l ta--left">Initial iterations</p>
+</div>
+
+<div class="width--wide">
+<img src="/img/work/tournament-admin/tournament_admin_start.jpg" srcset="/img/work/tournament-admin/tournament_admin_start@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_start.jpg 1x" sizes="100%" alt="tournament panel match">   
+<p class="caption f--l ta--left">Process of queueing up a match</p>
+</div>    
+
+<div class="width--wide">
+<img src="/img/work/tournament-admin/tournament_admin_stocks.jpg" srcset="/img/work/tournament-admin/tournament_admin_stocks@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_stocks.jpg 1x" sizes="100%" alt="tournament panel stocks remaining">
+</div>
+
+<div class="project__text-wrap">
+  <h6 class="m-b-xs">Fixed bar</h6>
+  <p>As a set progresses and matches stack above each other, scrolling will initiate a miniature version of the match display. This bar will remain fixed at the top of the screen.</p>
+</div>
+
+<div class="width--wide">
+<img src="/img/work/tournament-admin/tournament_admin_characters.jpg" srcset="/img/work/tournament-admin/tournament_admin_characters@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_characters.jpg 1x" sizes="100%" alt="tournament panel character selection">   
+</div>
+
+<div class="width--wide">
+<img src="/img/work/tournament-admin/tournament_admin_stages.jpg" srcset="/img/work/tournament-admin/tournament_admin_stages@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_stages.jpg 1x" sizes="100%" alt="tournament panel stages selection">   
+</div>
+
+<div class="width--full">
+<img src="/img/work/tournament-admin/tournament_admin_result.jpg" srcset="/img/work/tournament-admin/tournament_admin_result@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_result.jpg 1x" sizes="100%" alt="tournament panel match results">   
+<p class="caption f--l ta--l">A completed best of three set</p>
+</div>
+
+<div class="width--full">
+<img src="/img/work/tournament-admin/tournament_admin_tablet.jpg" srcset="/img/work/tournament-admin/tournament_admin_tablet@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_tablet.jpg 1x" sizes="100%" alt="tournament panel tablet responsive">   
+</div>
+
+      <!-- <div class="width--full">
+<img src="/img/work/tournament-admin/tournament_admin_before.jpg" srcset="/img/work/tournament-admin/tournament_admin_before@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_before.jpg 1x" sizes="100%" alt="tournament panel before">
+<p class="caption f--l ta--l">Panel before redesign
+</div>
+
+<div class="project__text-wrap">
+  <h4 class="m-b-xs">Requirements</h4>
+  Above is how the tournament panel appeared prior to the redesign. Below are the prerequisites I was presented with. Despite all the details shown, the user must be able to succesfully report the result of one  with only the data of who won and lost. Character choice, stocks remaining, stage used, should all be optional data.
+
+
+  <h6>Needs to show</h6>
+  <ul>
+    <li>Match details (round, phase, identifier)</li>
+    <li>Match status (in progress with timer, completed, upcoming)</li>
+    <li>Players</li>
+  </ul>
+
+  <h6>Functionality</h6>
+  <ul>
+    <li>Report winner by game, characters, stages and stocks left</li>
+      <ul>
+        <li>All information is optional other than winner</li>
+        <li>Next match auto-appears once winner has been selected</li>
+        <li>Minimizing number of taps is important</li>
+        <li>For characters, we will know recent/suggested characters for each player for quick selection</li>
+        </ul>
+    <li>DQ players</li>
+    <li>Mark match in progress</li>
+    <li>Assign station to a match</li>
+    <li>Responsive so organizers can access via desktop or tablet at events</li>
+  </ul>
+</div>
+
+<div class="width--wide">
+<img src="/img/work/tournament-admin/tournament_admin_drafts.jpg" srcset="/img/work/tournament-admin/tournament_admin_drafts@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_drafts.jpg 1x" sizes="100%" alt="tournament panel iterations">   
+<p class="caption f--l ta--left">Initial iterations
+</div>
+
+<div class="width--wide">
+<img src="/img/work/tournament-admin/tournament_admin_start.jpg" srcset="/img/work/tournament-admin/tournament_admin_start@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_start.jpg 1x" sizes="100%" alt="tournament panel match">   
+<p class="caption f--l ta--left">Process of queueing up a match
+</div>    
+
+<div class="width--wide">
+<img src="/img/work/tournament-admin/tournament_admin_stocks.jpg" srcset="/img/work/tournament-admin/tournament_admin_stocks@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_stocks.jpg 1x" sizes="100%" alt="tournament panel stocks remaining">
+</div>
+
+<div class="project__text-wrap">
+  <h6 class="m-b-xs">Fixed bar</h6>
+  As a set progresses and matches stack above each other, scrolling will initiate a miniature version of the match display. This bar will remain fixed at the top of the screen.
+</div>
+
+<div class="width--wide">
+<img src="/img/work/tournament-admin/tournament_admin_characters.jpg" srcset="/img/work/tournament-admin/tournament_admin_characters@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_characters.jpg 1x" sizes="100%" alt="tournament panel character selection">   
+</div>
+
+<div class="width--wide">
+<img src="/img/work/tournament-admin/tournament_admin_stages.jpg" srcset="/img/work/tournament-admin/tournament_admin_stages@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_stages.jpg 1x" sizes="100%" alt="tournament panel stages selection">   
+</div>
+
+<div class="width--full">
+<img src="/img/work/tournament-admin/tournament_admin_result.jpg" srcset="/img/work/tournament-admin/tournament_admin_result@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_result.jpg 1x" sizes="100%" alt="tournament panel match results">   
+<p class="caption f--l ta--l">A completed best of three set
+</div>
+
+<div class="width--full">
+<img src="/img/work/tournament-admin/tournament_admin_tablet.jpg" srcset="/img/work/tournament-admin/tournament_admin_tablet@2x.jpg 2x, /img/work/tournament-admin/tournament_admin_tablet.jpg 1x" sizes="100%" alt="tournament panel tablet responsive">   
+</div>
+ -->
+    </div>
+
+    <aside class="project__info m-t-s">
+      <ul class="project__info__details m-b-m">
+       <h3 class="project__info__details__category h6 m-b-xxs">Tags</h3>
+         
+            <li class="project__info__details__item m-v-xxs">user-interface</li>
+            <!-- <li><a href="/work/user-interface/">user-interface</a></li> -->
+            <!--This is the linked tag version for when you upgrade your features.-->
+         
+            <li class="project__info__details__item m-v-xxs">design consulting</li>
+            <!-- <li><a href="/work/design consulting/">design consulting</a></li> -->
+            <!--This is the linked tag version for when you upgrade your features.-->
+         
+       </ul>
+       <ul class="project__info__details m-b-m">
+       <h3 class="project__info__details__category h6 m-b-xxs">Client</h3>
+         
+           <li class="project__info__details__item m-v-xxs">Smash.gg</li>
+         
+       </ul>
+       <ul class="project__info__details m-b-m">
+       <h3 class="project__info__details__category h6 m-b-xxs">My Role</h3>
+         
+           <li class="project__info__details__item m-v-xxs">Designer</li>
+         
+       </ul>
+    </aside>
+
+    <div class="project__share m-v-xl">
+        <div class="project__share__block">
+          <h5 class="project__share__cta">Share this project</h5>
+
+          <a class ="project__share__icon project__share__icon--twitter" href="https://twitter.com/share" data-via="_lilchen" target="_blank"><span class="fa fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+
+          <a class ="project__share__icon project__share__icon--facebook" href="https://facebook.com/sharer.php?u=/work/tournament-admin/" rel="nofollow" target="_blank" title="Share on Facebook"><span class="fa fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+          </span></a>
+
+          <a class="project__share__icon project__share__icon--tumblr" href="http://www.tumblr.com/share" target="_blank"><span class="fa fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
+          </span></a>
+        </div>
+    </div>
+
+
+  <div class="project__navigation">
+  <!--I swapped next and previous because I reversed post order on project grids page.-->
+  
+      <a href="/work/ted-talks-extra-bar/" 
+      class="project__navigation__button project__navigation__button--back">
+      <div class="project__navigation text-align--right">
+        <strong class="project__navigation__text project__navigation__text--back"><span>Back</span></strong>
+        <div class="project__navigation__button__title text-align--right p-t-s">TED Talks Extras Bar</div>
+      </div></a>
+  
+
+  
+      <a href="/work/ted-quotes/" class="project__navigation__button project__navigation__button--next">
+      <div class="project__navigation text-align--left">
+        <strong class="project__navigation__text project__navigation__text--next"><span>Next</span></strong>
+        <div class="project__navigation__button__title text-align--left p-t-s" >TED Quotes</div>
+      </div></a>
+  
+
+  </div>
+  </article>
+
+  <a href="#0" class="cd-top">Top</a>
+
+<script>
+  function stickyDiv() {
+     $(".post__share__list").sticky({topSpacing:130, wrapperClassName:"post__share__sticky"});
+  }
+  $(document).ready(stickyDiv);
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script id="tumblr-js" async src="https://assets.tumblr.com/share-button.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61343635-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<script>
+  var nav = responsiveNav(".nav-collapse");
+</script>
+</body>
+
+<footer class="footer">
+  <div class="footer__wrapper">
+
+    <div class="footer__column--right">
+      <ul class="footer__social__list">
+        <a class="footer__social__item" href="mailto:hello@lilchen.com">
+        <li><i class="fa fa-envelope-o"></i></li></a>
+        <a class="footer__social__item" href="https://twitter.com/_lilchen" target="_blank">
+        <li><i class="fa fa-twitter"></i></li></a>
+        <a class="footer__social__item" href="http://milktea-ssbm.tumblr.com" target="_blank">
+        <li><i class="fa fa-tumblr"></i></li></a>
+        <a class="footer__social__item" href="http://lilchen.vsco.co/" target="_blank">
+        <li><i class="fa fa-camera-retro"></i></li></a>
+      </ul>
+    </div>
+
+    <div class="footer__column--left">
+      <strong class="display--ib m-b-xs">Copyright © 2015 Lilian Chen. All rights reserved.</strong>
+      <p>
+      I built this Jekyll site using Bourbon's Neat, BEM, and a drizzle of OOCSS. Sass, Sublime and CodeKit are my utensils of choice.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+</div> 
+</html>

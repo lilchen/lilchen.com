@@ -1,0 +1,147 @@
+// type-direction--size, example: m-t-xl (margin-top-xl)
+// types: m(margin), p(padding)
+// directions: a(all), t(top), b(bottom), l(left), r(right), h(horizontal), v(vertical)
+// sizes: xxs, xs, s, m, l, xl, xxl
+
+// SIZES
+$xxs: .2rem;
+$xxs-m: .2rem;
+$xxs-l: .2rem;
+
+$xs: .6rem;
+$xs-m: .6rem;
+$xs-l: .6rem;
+
+$s: .8rem;
+$s-m: .8rem;
+$s-l: .8rem;
+
+$m: 1.5rem;
+$m-m: 1.5rem;
+$m-l: 1.5rem;
+
+$l: 2rem;
+$l-m: 2rem;
+$l-l: 2rem;
+
+$xl: 2.5rem;
+$xl-m: 2.5rem;
+$xl-l: 2.5rem;
+
+$xxl: 3rem;
+$xxl-m: 3rem;
+$xxl-l: 3rem;
+
+$sizes: xxs $xxs $xxs-m $xxs-l, xs $xs $xs-m $xs-l, s $s $s-m $s-l, m $m $m-m $m-l, l $l $l-m $l-l, xl $xl $xl-m $xl-l, xxl $xxl $xxl-m $xxl-l;
+
+// MARGIN
+@each $size in $sizes {
+    .m-t-#{nth($size, 1)} {
+      margin-top: nth($size, 2);
+      @include media($medium-screen) {margin-top: nth($size, 3);}
+      @include media($large-screen) {margin-top: nth($size, 4);}
+    }
+}
+@each $size in $sizes {
+    .m-b-#{nth($size, 1)} {
+      margin-bottom: nth($size, 2);
+      @include media($medium-screen) {margin-bottom: nth($size, 3);}
+      @include media($large-screen) {margin-bottom: nth($size, 4);}
+    }
+}
+@each $size in $sizes {
+    .m-l-#{nth($size, 1)} {
+      margin-left: nth($size, 2);
+      @include media($medium-screen) {margin-left: nth($size, 3);}
+      @include media($large-screen) {margin-left: nth($size, 4);}
+    }
+}
+@each $size in $sizes {
+    .m-r-#{nth($size, 1)} {
+      margin-right: nth($size, 2);
+      @include media($medium-screen) {margin-right: nth($size, 3);}
+      @include media($large-screen) {margin-right: nth($size, 4);}
+    }
+}
+@each $size in $sizes {
+    .m-v-#{nth($size, 1)} {
+      margin-top: nth($size, 2);
+      margin-bottom: nth($size, 2);
+      @include media($medium-screen) {margin-top: nth($size, 3); margin-bottom: nth($size, 3);}
+      @include media($large-screen) {margin-top: nth($size, 4); margin-bottom: nth($size, 4);}
+    }
+}
+@each $size in $sizes {
+    .m-h-#{nth($size, 1)} {
+      margin-left: nth($size, 2);
+      margin-right: nth($size, 2);
+      @include media($medium-screen) {margin-left: nth($size, 3); margin-right: nth($size, 3);}
+      @include media($large-screen) {margin-left: nth($size, 4); margin-right: nth($size, 3);}
+    }
+}
+@each $size in $sizes {
+    .m-a-#{nth($size, 1)} {
+      margin: nth($size, 2);
+      @include media($medium-screen) {margin: nth($size, 3);}
+      @include media($large-screen) {margin: nth($size, 4);}
+    }
+}
+
+// PADDING
+@each $size in $sizes {
+    .p-t-#{nth($size, 1)} {padding-top: nth($size, 2);
+      @include media($medium-screen) {padding-top: nth($size, 3);}
+      @include media($large-screen) {padding-top: nth($size, 4);}
+    }
+}
+@each $size in $sizes {
+    .p-b-#{nth($size, 1)} {
+      padding-bottom: nth($size, 2);
+      @include media($medium-screen) {padding-bottom: nth($size, 3);}
+      @include media($large-screen) {padding-bottom: nth($size, 4);}
+    }
+}
+@each $size in $sizes {
+    .p-l-#{nth($size, 1)} {
+      padding-left: nth($size, 2);
+      @include media($medium-screen) {padding-left: nth($size, 3);}
+      @include media($large-screen) {padding-left: nth($size, 4);}
+    }
+}
+@each $size in $sizes {
+    .p-r-#{nth($size, 1)} {
+      padding-right: nth($size, 2);
+      @include media($medium-screen) {padding-right: nth($size, 3);}
+      @include media($large-screen) {padding-right: nth($size, 4);}
+    }
+}
+@each $size in $sizes {
+    .p-v-#{nth($size, 1)} {
+      padding-top: nth($size, 2);
+      padding-bottom: nth($size, 2);
+      @include media($medium-screen) {padding-top: nth($size, 3); padding-bottom: nth($size, 3);}
+      @include media($large-screen) {padding-top: nth($size, 4); padding-bottom: nth($size, 4);}
+    }
+}
+@each $size in $sizes {
+    .p-h-#{nth($size, 1)} {
+      padding-left: nth($size, 2);
+      padding-right: nth($size, 2);
+      @include media($medium-screen) {padding-left: nth($size, 3); padding-right: nth($size, 3);}
+      @include media($large-screen) {padding-left: nth($size, 4); padding-right: nth($size, 3);}
+    }
+}
+@each $size in $sizes {
+    .p-a-#{nth($size, 1)} {
+      padding: nth($size, 2);
+      @include media($medium-screen) {padding: nth($size, 3);}
+      @include media($large-screen) {padding: nth($size, 4);}
+    }
+}
+
+// AUTO
+
+.m-h-auto {
+  margin-left: auto;
+  margin-right: auto;
+}

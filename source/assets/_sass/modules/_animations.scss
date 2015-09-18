@@ -1,0 +1,29 @@
+// SHIMMY
+
+@include keyframes(shimmy) {
+  from {
+    @include transform(translateY(-4px));
+  }
+  to {
+    @include transform(translateY(0px));
+  }
+}
+
+// FADE IN
+
+@-webkit-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
