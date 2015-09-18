@@ -1,0 +1,141 @@
+// WIDTHS
+
+.width {
+  &--wide {
+    display: inline-block;
+    clear: both;
+    @include fill-parent();
+    @include media($large-screen) {
+      @include span-columns(10 of 8);
+    }
+ }
+  &--full {
+    display: inline-block;
+    clear: both;
+  }
+  &--1_2 {
+    @include span-columns($small-screen-col);
+
+    @include media($medium-screen) {
+      @include span-columns($medium-screen-col / 2);
+    }
+
+    @include media($large-screen) {
+      @include span-columns($large-screen-col / 2);
+    }
+    &:last-of-type {
+      margin-right:0;
+    }   
+  }
+
+   &--2_3 { 
+    margin-right: 0;
+    
+    @include span-columns($small-screen-col);
+
+    @include media($medium-screen) {
+      @include span-columns($medium-screen-col / 3 * 2);
+    }
+
+    @include media($large-screen) {
+      @include span-columns($large-screen-col / 3 * 2);
+    } 
+    &:last-of-type {
+      margin-right:0;
+    }  
+  }
+
+  &--1_3 { 
+    @include span-columns($small-screen-col);
+
+    @include media($medium-screen) {
+      @include span-columns($medium-screen-col / 3);
+    }
+
+    @include media($large-screen) {
+      @include span-columns($large-screen-col / 3);
+    }
+    &:last-of-type {
+      margin-right:0;
+    }  
+  }
+
+
+  &--1_4 {
+    @include span-columns($small-screen-col);
+
+    @include media($medium-screen) {
+      // @include span-columns($medium-screen-col / 4);
+    }
+
+    @include media($large-screen) {
+      @include span-columns($large-screen-col / 4);
+    }  
+    &:last-of-type {
+      margin-right:0;
+    } 
+  }
+
+  &--3_4 {
+    @include span-columns($small-screen-col);
+
+    @include media($medium-screen) {
+      // @include span-columns($medium-screen-col / 4 * 3);
+    }
+
+    @include media($large-screen) {
+      @include span-columns($large-screen-col / 4 * 3);
+    }
+    &:last-of-type {
+      margin-right:0;
+    }   
+  }
+
+  // &--2thirds { /* not a true third, can't stack three thirds in one line */
+  //   @include span-columns($small-screen-col);
+
+  //   @include media($medium-screen) {
+  //     @include span-columns($medium-screen-col / 2 + 1.5);
+  //   }
+
+  //   @include media($large-screen) {
+  //     @include span-columns($large-screen-col / 2 + 1.5);
+  //   }  
+  // }
+
+  // &--1third { /* not a true third, can't stack three thirds in one line */
+  //   @include span-columns($small-screen-col);
+
+  //   @include media($medium-screen) {
+  //     @include span-columns($medium-screen-col / 2 - 1.5);
+  //   }
+
+  //   @include media($large-screen) {
+  //     @include span-columns($large-screen-col / 2 - 1.5);
+  //   }  
+  // }
+  // &--3quarters {
+  //   @include span-columns($small-screen-col);
+
+  //   @include media($medium-screen) {
+  //     // @include span-columns($medium-screen-col / 4 * 3);
+  //   }
+
+  //   @include media($large-screen) {
+  //     @include span-columns($large-screen-col / 4 * 3);
+  //   }  
+  // }
+
+  // &--1quarter {
+  //   @include omega();
+  //   @include span-columns($small-screen-col);
+
+  //   @include media($medium-screen) {
+  //     // @include span-columns($medium-screen-col / 4);
+  //   }
+
+  //   @include media($large-screen) {
+  //     @include span-columns($large-screen-col / 4);
+  //   }  
+  // }
+}

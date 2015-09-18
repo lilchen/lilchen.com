@@ -15,13 +15,16 @@ markdown: redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 # paginate:     10
-exclude: ['assets/_sass', 'Guardfile', 'Gemfile', 'Gemfile.lock', 'README.markdown', '.sass-cache', 'config.codekit', '.codekit-cache', '.DS_Store']
+
 # include: ['']
 
-# Sass  
+# Files  
+source: source
+destination: _site
 sass:
   sass_dir: _sass
   compressed: true
+exclude: ['assets/_sass', 'Guardfile', 'Gemfile', 'Gemfile.lock', 'README.markdown', '.sass-cache', 'config.codekit', '.codekit-cache', '.DS_Store']
 
 # Meta Info
 locale: en_US

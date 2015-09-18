@@ -1,0 +1,21 @@
+<header class="site__header">
+
+<div class="site__logo">
+<a class="site__logo__name" href="{{ site.baseurl }}/"></a>
+</div>
+
+<nav class="nav-collapse">
+  <ul>
+    <li>
+    <a href="{{ site.baseurl }}/about" {% if page.class == 'about' %} class="nav-active"{% endif %}>About</a>
+    </li>
+    <li>
+    <a href="{{ site.baseurl }}/work" {% if page.class == 'project__grid' or page.layout == 'project' %} class="nav-active"{% endif %}>Work</a>
+    </li>
+    <li>
+    <a href="{{ site.baseurl }}/blog" {% if page.class == 'blog' or page.layout == 'post' %} class="nav-active"{% endif %}>Blog</a>
+    </li>
+  </ul>
+</nav>
+
+</header>

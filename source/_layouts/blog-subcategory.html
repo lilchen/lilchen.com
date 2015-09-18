@@ -1,0 +1,40 @@
+---
+layout: blog-subcategory
+---
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <div class="{{ page.class }} wrapper">
+      {% include header.html %}
+   
+    <article class="{{ page.class }}__content page__content">
+
+      <header class="{{ page.class }}__header page__header">
+        <h1 class="page__title h1"><span>{{ page.title }}: <strong class="{{ page.class }}__header__subcategory">{{ page.subcategory }}</strong></span></h1>
+      </header>
+
+      <div class="blog__posts__column">
+
+          {% for post in site.categories.blog %}
+            {% if post.subcategories contains page.subcategory %}
+
+            {% include blog-full.html %}
+
+              {% endif %}
+          {% endfor %}
+
+  </div>
+
+{% include blog-sidebar.html %}
+
+    </article>
+  </div>
+
+  {% include footer.html %}
+
+  </body>
+
+</html>

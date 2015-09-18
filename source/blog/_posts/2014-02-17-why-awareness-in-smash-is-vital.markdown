@@ -1,0 +1,59 @@
+---
+layout:      post
+title:       Why awareness in the Super Smash Bros. Melee community is vital
+description: Dispelling common myths surrounding female gamers in hopes of increasing the diversity of the Smash community.
+thumbnail:   /blog/gc_controller.jpg
+date:        2014-02-17 12:31:19
+tags:        feminism gaming smash
+featured:    false
+condensed:   true
+subcategories: [gaming]
+---
+
+<small>__Original Post:__ <a href="http://milktea-ssbm.tumblr.com/post/76970566292/why-awareness-in-the-super-smash-bros-melee" target="_blank">milktea-ssbm.tumblr.com/post/76970566292/why-awareness-in-the-super-smash-bros-melee</a></small>
+
+![Gmoney's Smashfest]({{ site.baseurl }}/img/blog/gc_controller.jpg)
+
+The Super Smash Brothers Melee (SSBM) community kicked off 2013 by raising nearly <a href="http://shoryuken.com/2013/02/01/fighting-game-fans-raise-over-225000-for-breast-cancer-research-smash-wins/" target="_blank">$100,000 dollars for breast cancer research</a>, snagging the last coveted spot for the game line-up for EVO in Las Vegas. There, they broke the <a href="http://www.polygon.com/2013/7/15/4523962/super-smash-bros-melee-evo-2013-livestream-smashes-records" target="_blank">record</a> for the most watched fighting game, the live-stream peaking at 130,000 viewers. By the end of the year, a Smash Brothers Melee <a href="https://www.youtube.com/playlist?list=PLoUHkRwnRH-KTCH3tJ9WvsWWPEgUu-y6d" target="_blank">documentary</a> had been released, a piece dedicated to encapsulating the history of a blossoming grassroots community. Throughout the remnants of the year, our community’s leaders cultivated a never-seen-before <a href="http://www.twitch.tv/meleeitonme/" target="_blank">online presence</a> that helped us grow in unimaginable ways. All these factors served a role in the gaming world witnessing a dying, ten year old game, revitalize itself in what seemed like a heartbeat.
+
+The next step to maintaining our thriving community is, without debate, to continue expanding and diversifying. This leads us to one of our biggest and undeniable downfalls. If you have attended a tournament, you understand what I am referring to. _Where are all the women?_ Why are there so few? How can we call ourselves a competitive community that seeks the best competitors if we are alienating a demographic as large as the entire female population? And most importantly, how do we go about fixing this?
+
+This is where awareness becomes vital. The spreading of knowledge regarding the treatment of women in the SSBM community holds the power to nurture our scene into one that is welcoming for all. While there are certainly misogynistic jerks scattered about, a large part of the community is likely perpetuating disrespectful behaviors unknowingly. Not every person who has ever offended a female player does it intentionally, torches ablaze, pitchforks out, mentally chanting, _“I’M BEING A SEXIST JERK RIGHT NOW AND IT FEELS SPLENDID!”_ The fact that awareness is a constant work in progress is one that we forget, but it is so integral for change. Awareness is not a magical cure that will produce results overnight. It takes time, but with time comes gradual improvement.
+
+Before you roll your eyes, close the tab, and dismiss this as yet another article stereotyping male gamers as sexist, let us review one more aspect that is often overlooked. _Many female players also perpetuate these sexist, disrespectful behaviors_ (just ask 17 year old Milktea). This post is not attempting to wage war against male players, or anyone at all. Pointing fingers only causes more defensive barriers to be erected, further inhibiting progress. It is absolutely critical to realize that reforming the competitive SSBM culture is a task that we will all need to tackle in unison.
+
+Now, let us begin debunking girl-gamer myths together for the sake of aforementioned awareness.
+
+###Girls who play video games are doing it for the attention.
+Rather than traveling down the usual route of debating over whether or not female gamers are playing solely for attention, let’s approach from a different angle. Why is it not possible to enjoy both gaming and attention simultaneously? There are plenty of male players that openly adore being in the spotlight but still take their gameplay seriously. Their dedication is never questioned, nor are they followed around by a group of skeptics doubting their every action.
+
+A lot of animosity is directed at female gamers when they receive disproportionately large amounts of attention compared to their male counterparts. But, attention is a two-way street. It needs to be given in order to be received. Players who provide said attention are just as much a part of the equation. In actuality, the core issue actually has nothing to do with attention, but instead, equality. Treating female gamers the way you would treat males ones will fix this imbalance. If a male gamer does not garner this much attention for his actions, then neither should a female gamer.
+
+###But is she a REAL gamer? Prove it, pls.
+The idea of testing all new male competitors to ensure their legitimacy as real gamers sounds ridiculous, right? So why do we subject all female gamers to this? The act of hazing all female gamers upon entry is toxic. Aside from its elitist undertones, it essentially thwarts any chance of further engagement and potential interest in our community. Poisonous attitudes like this do not make our scene inviting, and if anything, deter its future expansion.
+
+What does “real gamer” even mean? What qualifications need to be met to be considered an authentic one? The varying degrees of what being a gamer entails are infinite. Do you think that all one hundred and thirty thousand viewers on EVO’s live-stream attend tournaments? Likewise, does every person who attends tournaments compete? Does every competitor enter expecting to win? There are many aspects to a competitive gaming community aside from the competition itself.
+
+###Just get really good, then you’ll get some respect.
+Since when did you have to become absurdly skilled in order to escape disrespect? Everyone, regardless of their skill level, is entitled to at least basic amounts of respect! High skill levels demand respect in relation to gameplay. But, there are many components to a competitive gaming community aside from its competitive edge. Commentators, streamers, tournament hosts, social network gurus and more constitute the social aspect of our community, contributing just as much to the hype as top players do. It should not come as a shock to anyone that many, if not most, of our players admit to playing on behalf of the great community. The idea that skill level at Smash Bros. is the best way to measure someone’s worth to our community is a dangerous belief, not only to female gamers, but male ones as well.
+
+###Just deal with it.
+Women who join the Smash Bros. Melee community are inherently disadvantaged from the get-go. It has nothing to do with their actions. Their individuality is completely neglected, actually. Females are immediately branded with negative girl-gamer stigmas simply because of their gender alone. As if this is not enough of a burden, they are then expected to overcome arbitrary hurdles just to earn the basic level of respect that random male gamers intrinsically have.
+
+While there are some women who have endured this negativity for years, that does NOT justify this type of behavior. I applaud the women who have put up with such adversity, good for them. But does that mean that every female who joins our scene should have to deal with this hostility? Does it change the fact that our current attitude will still discourage potential newcomers? The approach of “deal with it” will not alter the status quo, so unless stagnancy is what we are aiming for, we need to move past this mindset. It is not the responsibility of female gamers to endure this bullshit in order to be a part of the community. It is our responsibility to provide a healthy environment that they willingly want to engage with.
+
+###Why complain? You get so much attention, everyone thinks you’re really hot, and they are super nice to you! This is female privilege.
+This is easily the most deceptive side to the issue of sexism in gaming. The misleading nature of this subject reaffirms my belief that some players are unintentionally perpetuating sexist behaviors.
+
+Constantly receiving compliments on our appearance, being dramatically sandbagged against so that we have an advantage, and being coddled like a recently-born kitten are some of the “nice" perks women have. Female privilege, mirite? Here’s the catch, the underlying problem has nothing to do with the perceived kindness of these acts. The issue lies within the distinct lack of equality behind these actions. Are these behaviors something you would subject a male player to? Would you fail to see past their physical appearance? Would you severely handicap yourself in a match against them assuming they could not handle the match outcome? Would you feel the obligation to babysit them, as if they were incapable of grasping the gameplay for themselves? These are just a few examples, but the answer still remains: no.
+
+These are not privileges. They are a form of “reverse-sexism” (see ambivalent sexism). “Reverse-sexism” is sneaky and deceitful. On the surface, these kind actions appear to harbor good intentions and often, people honestly believe that they do. Instead, they underhandedly reinforce condescending views of women. Whether the implications are that female gamers need special assistance and handicaps or that their only role is to serve as eye-candy, these behaviors are damaging to our community’s attitude and perception of women. Even if these actions are genuinely not meant to be patronizing, they are by nature. The best thing we can do to prevent these behaviors is to treat female gamers the way we would male ones.
+
+I truly believe in the Super Smash Brothers Melee community’s ability to make large strides regarding female gaming issues. Armed with awareness and a touch of empathy, I am confident that we will begin to witness uninformed behaviors turn into knowledgeable ones. The SSBM scene is at such a dynamic stage in its life, one brimming with both reevaluation and reform. Now is the time to open our arms wider than ever to invite the world to experience our scene at large. I hope that one day our skewed gender ratio will balance itself. Perhaps, with more women in our community, we will even discover a handful of pro female Smashers.
+
+Spreading awareness about this issue is the first step. What is the second? I am not entirely sure myself, which is why I would love to open this issue to discussion. How can we, the Super Smash Bros. Melee community, make this a reality?
+
+_*Please do not interpret this post as, “BE EXTRA NICE TO THE LADIES WITH CHERRIES ON TOP.” Many articles on this subject get misconstrued for demanding that everyone be nicer to female gamers simply for the sake of being nicer. That would contradict the very idea of equality. I cannot be more blunt: <strong>treat female Smash players with the same amount of respect you would treat male ones</strong>. Do not treat them like mythical creatures. Do not treat them like physical manifestations of our community’s problems either._
+
+
+<small>Special shoutout to friend and old school CT Smasher <a href="http://jamstunna.tumblr.com/" target="_blank">Jam Stunna</a> for encouraging me to start writing about my concerns on these issues. He also gets credit for helping me edit my terribad grammar.</small>
