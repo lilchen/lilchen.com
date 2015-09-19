@@ -4822,7 +4822,7 @@ hr {
     width: 100%; }
   .project__grid__header:before {
     left: 0; }
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 719px) {
     .project__grid__header {
       margin-left: 1.5rem;
       margin-right: 1.5rem; } }

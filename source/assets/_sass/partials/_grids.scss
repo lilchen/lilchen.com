@@ -829,7 +829,7 @@ hr {
     }
   &__header {
     @include line-wrap;
-    @include media(max-width $width-medium) {
+    @include media(max-width $width-medium - 1px) {
       margin-left: $page-padding;
       margin-right: $page-padding;
     }
