@@ -28,7 +28,7 @@
     @include animation-timing-function(ease-);
     @include animation-fill-mode(forwards);
 
-      @include media(max-width $width-medium) {
+      @include media(max-width $width-medium - 1px) {
         display: inline-block;
       }
       @include media($medium-screen) {

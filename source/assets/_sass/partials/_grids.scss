@@ -21,6 +21,7 @@ hr {
 .wrapper {
   @include outer-container();
   max-width: 100%;
+
   @include media(max-width $width-medium) {
     display: inline-block;
   }
@@ -41,7 +42,7 @@ hr {
     height: $site-header-height;
     @include fill-parent();
     @include outer-container();
-    @include media(max-width $width-medium) {
+    @include media(max-width $width-medium - 1px) {
       // position: fixed;
       background: $nav-color;
       border-bottom: 1px solid $extra-light-gray;
@@ -1386,7 +1387,8 @@ hr {
       float: left;
     }
     @include media($medium-screen) {
-      @include span-columns(5 of 8);
+      @include fill-parent();
+      // @include span-columns(5 of 8);
     }
     @include media($large-screen) {
       @include span-columns(6 of 10);
@@ -1397,9 +1399,10 @@ hr {
     @include fill-parent();
     
      @include media($medium-screen) {
-      @include span-columns(3 of 8);
-      float: right;
-      @include omega();
+      @include fill-parent();
+      // @include span-columns(3 of 8);
+      // float: right;
+      // @include omega();
     }
     @include media($large-screen) {
       @include span-columns(4 of 10);
@@ -1415,7 +1418,7 @@ hr {
       margin-bottom: 1.5em;
 
       @include media($medium-screen) {
-        float: right;
+        // float: right;
       }
       @include media($large-screen) {
         float: right;
@@ -1424,7 +1427,7 @@ hr {
 
     &__item {
       float: left;
-      font-size: 2.5em;
+      font-size: 2em;
       margin-right: .8em;
       color: $mid-gray;
         &:last-child {
@@ -1435,10 +1438,10 @@ hr {
         }
  
       @include media($medium-screen) {
-        font-size: 2em;
+        // font-size: 2em;
       }
       @include media($large-screen) {
-        font-size: 2em;
+        // font-size: 2em;
       }
     }
   } 
