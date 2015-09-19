@@ -3001,6 +3001,9 @@ html {
   .width--3_4:last-of-type {
     margin-right: 0; }
 
+.gray {
+  color: #9f9f9f; }
+
 /* THIS IS WHERE TO EDIT THE ACTUAL BUTTON BEFORE YOU OPEN MENU. */
 .nav-collapse {
   width: 100%; }
