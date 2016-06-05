@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Post TEDYouth Empathy Talk Reflections Testing
+title:      Post TEDYouth Empathy Talk Reflections
 date:       2015-05-29 01:20:19
 description: Rapidfire thoughts on feedback observed after my TEDYouth talk.
 thumbnail:   /blog/tedyouth_stage.jpg
@@ -55,7 +55,7 @@ Feedback like this always catches me off-guard. I could have never imagined that
 Eventually, you start to realize that you have to keep doing what you're doing because it can and _will_ encourage others to take action. One of the many things I hope to see more of in <del>gaming</del> the world is the act of __women empowering other women__. We gotta have each other's backs.
 
 <div class="twitter__container">
-  <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">I&#39;m here to stay. I&#39;m going balls to the wall. I&#39;m hitting it harder. Because it&#39;s gonna make it easier for another girl.</p>&mdash; piglet (@drpiggyphd) <a href="https://twitter.com/drpiggyphd/status/603387675673001984">May 27, 2015</a></blockquote>
+  <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">I&#39;m here to stay. I&#39;m going balls to the wall. I&#39;m hitting it harder. Because it&#39;s gonna make it easier for another girl.</p><small>&mdash; piglet (@drpiggyphd) <a href="https://twitter.com/drpiggyphd/status/603387675673001984"><date>May 27, 2015</date></a></small></blockquote>
 </div>
 
 __@DrPiggyPHD__ hits the nail on the head with her final tweets on the matter. Despite the Smash community not being the most perfect environment for her, she intends on staying if it means helping another girl in the future.

@@ -5,8 +5,11 @@
   <ul class="blog__sidebar__subcategories m-t-s">
 {% assign subcategories = site.categories.blog | list_by_frontmatter: 'subcategories' %}
 {% for subcategory in subcategories %}
+      {% unless post.visible == false %}
   <a class="blog__sidebar__subcategories__item" href="{{ site.baseurl }}/blog/{{ subcategory }}">
   <li>{{ subcategory }} ({{ site.categories.blog | filter_by_frontmatter: 'subcategories',subcategory | size }})</li>
   </a>
+  
+{% endunless %}
 {% endfor %}
   </ul>

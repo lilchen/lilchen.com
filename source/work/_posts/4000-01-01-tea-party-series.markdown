@@ -45,14 +45,6 @@ to deliberately obscure the faces of various minorities. This design decision wa
      alt="tea party against cards">
 </div>
 
-<div class="project__text-wrap">
-<h6>Testing</h6>
-<p>This objective of this project was to create two posters, one that supported a political movement and another that opposed it. Once the posters were created, the designer was required to pick one side and execute an installation that reflected that choice.</p>
-
-<p>This objective of this project was to create two posters, one that supported a political movement and another that opposed it. Once the posters were created, the designer was required to pick one side and execute an installation that reflected that choice.</p>
-</div>
-
-
 <div class="width--wide">
 <div class="width--1_2">
     <img src="{{ site.baseurl }}/img/work/tea-party-series/tea_party_for_poster.jpg"

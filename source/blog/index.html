@@ -13,14 +13,18 @@ Dropdown arrow here.
 
     {% for post in site.categories.blog %}
       {% if post.condensed == false %}
+        {% unless post.visible == false %}
 
-      {% include blog-full.html %}
+            {% include blog-full.html %}
 
-  {% endif %}
+        {% endunless %}
+      {% endif %}
     {% endfor %}
+
 
       {% for post in site.categories.blog %}
       {% if post.condensed == true %}
+      {% unless post.visible == false %}
 
 <ul class="blog__posts--condensed">
       <li class="blog__posts--condensed__li m-t-xxs">
@@ -39,6 +43,7 @@ Dropdown arrow here.
         </div>
       </li></a>
   </ul>
+        {% endunless %}
         {% endif %}
     {% endfor %}
 

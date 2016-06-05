@@ -100,6 +100,8 @@
     }
   }
 
+  @include caption-style; 
+
   cite {
     display: block;
     margin-top: -.5em;

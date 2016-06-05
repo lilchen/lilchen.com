@@ -71,8 +71,17 @@ small {
   display: inline-block;
   width: 100%;
   font-size: .7em;
-  line-height: 1.2em;
+  line-height: 1.3em;
   margin: .5em 0;
+  @include standard-lists;
+  // @include media(min-width $width-medium) {
+  //   font-size: .6em;
+  //   background: red;
+  // }
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 /* Mozilla based browsers */
@@ -87,13 +96,16 @@ small {
   color: white;
 }
 
-.caption {
+@mixin caption-style {
+  .caption {
     font-size: .68em;
     margin-top: -.85em;
     color: $mid-gray;
     display: block;
     clear: both;
   }
+}
+@include caption-style;
 
 .ta {
   &--r {
@@ -104,23 +116,5 @@ small {
   }
   &--c {
     text-align: center;
-  }
-}
-
-.f {
-  &--l {
-    float: left;
-  }
-  &--r {
-    float: right;
-  }
-}
-
-.display {
-  &--ib {
-    display: inline-block;
-  }
-  &--b {
-    display: block;
   }
 }

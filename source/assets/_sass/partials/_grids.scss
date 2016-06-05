@@ -27,10 +27,10 @@ hr {
   }
   @include media($medium-screen) {
     @include outer-container($width-large);
-    }
+  }
   @include media($large-screen) {
     @include outer-container($width-largest);
-    }
+  }
 }
 
 .site {
@@ -285,11 +285,11 @@ hr {
         }
         @include media($medium-screen) {
           @include span-columns(3 of 8);
-          margin-top: -1.35em;
+          margin-top: -1.45em;
         }
         @include media($large-screen) {
           @include span-columns(4 of 10);
-          margin-top: -1.4em;
+          margin-top: -1.45em;
         }
       & img {
         @include fill-parent();
@@ -333,8 +333,9 @@ hr {
         @include omega();
       }
     }
-    &__date {
+    &__date { /* .home__blog__date */
       display: inline-block;
+      margin-bottom: .4em;
       @include date-style;
       @include media(min-width $width-medium) {
         margin-top: .6em;
@@ -348,8 +349,8 @@ hr {
       @include cta($secondary-color, $secondary-color, white, $secondary-color, $secondary-color, white, $primary-color, $primary-color);
     }
   }
-  &__press { /* home */
-    @include press-speaking-lists;
+  &__media { /* home */
+    @include media-lists;
 
     &__block {
       /* These are overrides for rounded-cornered version. */
@@ -541,7 +542,7 @@ hr {
       @include line-wrap;
       font-size: 1.2em;
     }
-    @include press-speaking-lists;
+    @include media-lists;
   }
 }
 
@@ -976,6 +977,53 @@ hr {
       display: block;
       position: relative;
     }
+  }
+}
+
+// GAMING
+
+.gaming {
+
+  &__content {    
+    @include content;
+      @include media(max-width $width-medium - 1px) {
+        display: inline-block;
+      }
+      @include media($medium-screen) {
+        width: percentage(10 / 10);
+        padding: 0;
+      }
+      @include media($large-screen) {
+        padding: 0;
+        width: percentage(12 / 12);
+      }
+      &--wide {
+        background: rgba(beige, .8);
+        position: relative;
+        width: 100vw;
+        left: calc(-50vw + 50%);
+        max-width: none;
+        padding-left: percentage(2 / 12);
+      }
+    }
+
+  &__header {
+    // display: inline-block;
+    // width: 100%;
+    @include line-wrap;
+    @include outer-container();
+    @include fill-parent();
+    @include media(max-width $width-medium - 1px) {
+        display: inline-block;
+      }
+      @include media($medium-screen) {
+        width: percentage(8 / 10);
+        padding: 0;
+      }
+      @include media($large-screen) {
+        padding: 0;
+        width: percentage(10 / 12);
+      }
   }
 }
 

@@ -5,9 +5,9 @@ class: home
 
 <div class="home__intro">
   <h1 class="home__intro__tagline p-b-s">Sup? I'm Lil. <i class="fa fa-heart-o"></i></h1>
-  <p class="home__intro__blurb m-b-s">I am a designer who is curious about communicative design that is systematic and iterative. My specialty lies in the overlap between web, product, and visual design.
+  <p class="home__intro__blurb m-b-s">I am a designer who is curious about communicative design that is systematic and iterative. My specialty lies in the overlap between user-experience, web, and visual design.
 
-  <small class="m-b-s">Oh, and I <a href="{{ site.baseurl }}/about">used to be</a> a competitive Super Smash Brothers player.</small>
+  <small class="m-b-s gray">Oh, and I <a href="{{ site.baseurl }}/about">used to be</a> a competitive Super Smash Brothers player.</small>
   </p>
 </div>
 
@@ -34,7 +34,7 @@ class: home
   </ul>
 </div>
 
-<div class="home__blog__wrapper">
+<div class="home__blog__wrapper m-v-s">
   <h3 class="home__header--section"><span>Latest Blog Posts</span></h3>
 {% for post in site.categories.blog %}
   {% if post.featured == true %}
@@ -45,7 +45,7 @@ class: home
         <li class="home__blog__subcategories__item">{{ subcategory }}</li>
       {% endfor %}
     </ul>
-      <a class="home__blog__title" href="{{ site.baseurl }}{{ post.id }}"><h4>{{ post.title }}</h4></a>
+      <a class="home__blog__title m-t-xxs" href="{{ site.baseurl }}{{ post.id }}"><h4>{{ post.title }}</h4></a>
       <a class="home__blog__thumbnail" href="{{ site.baseurl }}{{ post.id }}"><img src="{{ site.baseurl }}/img{{ post.thumbnail }}"></a>
     
       <div class="home__blog__details">  
@@ -58,28 +58,31 @@ class: home
 {% endfor %}
 </div>
 
-<div class="home__press__wrapper">
-  <h3 class="home__header--section"><span>Select Press</span></h3>
-  <ul class="home__press m-t-xxs">
-{% assign sorted_press = site.data.press | sort: 'date' %}
-{% for press in sorted_press reversed %}
-  {% if press.featured == true %}
-  <li class="home__press__block">
-    <time class="home__press__date">{{ press.date | date: '%B %d, %Y' }}</time>
-    <a class="h5 home__press__title" href="{{ press.url }}" target="_blank"><cite>{{ press.title }}
-    </cite></a>
-    <span class="home__press__organization">{{ press.organization }}</span>
-  </li> 
-  {% endif %}
-{% endfor %}
-</ul>
-</div>
+<div class="home__media__wrapper">
+  <h3 class="home__header--section"><span>Select Speaking &amp; Press</span></h3>
+    <ul class="home__media m-t-xxs">
+
+      {% assign sorted_media = site.data.press | concat: site.data.speaking | sort: 'date' %}
+
+      {% for highlight in sorted_media reversed %}
+        {% if highlight.featured == true %}
+        <li class="home__media__block">
+          <time class="home__media__date">{{ highlight.date | date: '%B %d, %Y' }}</time>
+          <a class="h5 home__media__title" href="{{ media.url }}" target="_blank"><cite>{{ highlight.title }}
+          </cite></a>
+          <span class="home__media__organization">{{ highlight.organization }}</span>
+        </li> 
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+</div>  
 
 <div class="home__currently__wrapper">
   <h3 class="home__header--section"><span>Currently</span></h3>
-  <ul class="home__currently m-t-s">
+  <ul class="home__currently m-t-s m-b-m">
   {% for currently in site.data.currently %}
-    <li class="home__currently__item m-v-xs">
+    <li class="home__currently__item m-v-s">
       <div class="home__currently__item__wrap {{ currently.label }}"> 
         <strong class="m-b-xxs">{{ currently.label | capitalize }}</strong>
         <em>{{ currently.entry}}</em>

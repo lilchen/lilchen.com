@@ -129,7 +129,7 @@ Now that my site was functioning at a basic level in browser, it was time to add
 
 With that in mind, I set out to research different methodologies for breaking down Sass into partials, modules, and components. I also examined several proposed CSS naming conventions.
 
-_TheSassway+ wrote a a great introductory article on <a href="http://thesassway.com/beginner/how-to-structure-a-sass-project" target="_blank">structuring Sass projects</a> that acted as a strong, basic foundation for me. I jumpstarted off these guidelines, but adjusted my structure accordingly as I wrote more and more of my own CSS.
+_TheSassway_ wrote a a great introductory article on <a href="http://thesassway.com/beginner/how-to-structure-a-sass-project" target="_blank">structuring Sass projects</a> that acted as a strong, basic foundation for me. I jumpstarted off these guidelines, but adjusted my structure accordingly as I wrote more and more of my own CSS.
 
 Next, I decided that BEM and OOCSS were the best naming conventions for _me_. I definitely recommend taking a look at all of them before choosing for yourself.
 
@@ -188,7 +188,7 @@ The good news is that it has been a few months since I finished and I still don�
 <a href="https://www.sublimetext.com/" target="_blank">Sublime</a> is a great text-editor. I can’t wait to memorize all the intricate keyboard shortcuts. Nuff said.
 
 ######Sass
-Ever since I heard about Sass years ago, I had always wanted to utilize it. I experimented with it in making my <a href="http://lilchen.com/blog/insight-into-stream-overlay/" target="_blank">stream overlays</a>, but really put it to use for this site. _ABookApart_ has a great <a href="http://lilchen.com/blog/insight-into-stream-overlay/" target="_blank">introductory book</a> by Dan Cedarholm if you want to give it a go.
+Ever since I heard about Sass years ago, I had always wanted to utilize it. I experimented with it in making my <a href="http://lilchen.com/blog/insight-into-stream-overlay/" target="_blank">stream overlays</a>, but really put it to use for this site. _ABookApart_ has a great <a href="https://abookapart.com/products/sass-for-web-designers" target="_blank">introductory book</a> by Dan Cedarholm if you want to give it a go.
 
 ######Codekit
 <a href="https://incident57.com/codekit/" target="_blank">CodeKit</a> is essentially a compiler and LiveReload crammed into one app, all with a GUI (Graphical User Interface)! As a Mac user who didn’t use Terminal much prior, it was quite useful.

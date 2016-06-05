@@ -59,7 +59,7 @@ layout: project
         <div class="project__share__block">
           <h5 class="project__share__cta">Share this project</h5>
 
-          <a class ="project__share__icon project__share__icon--twitter" href="https://twitter.com/share" data-via="_lilchen" target="_blank"><span class="fa fa-stack fa-lg">
+          <a class ="project__share__icon project__share__icon--twitter" href="https://twitter.com/intent/tweet?text={% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | prepend: ' ' | append: ' via @_lilchen '}}{% if page.author %}{{ site.twitter_username | prepend: '@' }}{% endif %}" data-via="_lilchen" data-via="_lilchen" target="_blank"><span class="fa fa-stack fa-lg">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
 

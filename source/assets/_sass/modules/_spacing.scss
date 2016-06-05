@@ -139,9 +139,40 @@ $sizes: xxs $xxs $xxs-m $xxs-l, xs $xs $xs-m $xs-l, s $s $s-m $s-l, m $m $m-m $m
     }
 }
 
+// ZERO
+
+.m-r-0 {
+  margin-right: 0;
+}
+
+.m-l-0 {
+  margin-left: 0;
+}
+
+.m-t-0 {
+  margin-top: 0;
+}
+
+.m-b-0 {
+  margin-bottom: 0;
+}
+
 // AUTO
+
+.m-r-auto {
+  margin-right: auto;
+}
+
+.m-l-auto {
+  margin-left: auto;
+}
 
 .m-h-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.m-v-auto {
+  margin-top: auto;
+  margin-bottom: auto;  
 }

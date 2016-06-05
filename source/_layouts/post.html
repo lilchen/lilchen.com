@@ -25,7 +25,7 @@ layout: post
     <div class="post__share">
       <ul class="post__share__list">
       <h6 class="post__share__list__text">Share</h6>
-        <a href="https://twitter.com/share" data-via="_lilchen" target="_blank"><li class="post__share__list__item post__share__list__item--twitter"><span class="fa-stack">
+        <a href="https://twitter.com/intent/tweet?text={% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | prepend: ' ' | append: ' via @_lilchen '}}{% if page.author %}{{ site.twitter_username | prepend: '@' }}{% endif %}" data-via="_lilchen" target="_blank"><li class="post__share__list__item post__share__list__item--twitter"><span class="fa-stack">
         <i class="fa fa-twitter fa-stack-1x"></i>
         </span></li></a>
         <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><li class="post__share__list__item post__share__list__item--facebook"><span class="fa-stack">

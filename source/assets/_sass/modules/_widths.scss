@@ -12,11 +12,15 @@
   &--full {
     display: inline-block;
     clear: both;
+    width: 100%;
   }
+
   &--1_2 {
     @include span-columns($small-screen-col);
+    @include omega();
 
     @include media($medium-screen) {
+      // @include span-columns($medium-screen-col / 2);
       @include span-columns($medium-screen-col / 2);
     }
 
@@ -25,11 +29,12 @@
     }
     &:last-of-type {
       margin-right:0;
-    }   
+    }    
   }
 
    &--2_3 { 
     margin-right: 0;
+    @include omega();
     
     @include span-columns($small-screen-col);
 
@@ -47,6 +52,7 @@
 
   &--1_3 { 
     @include span-columns($small-screen-col);
+    @include omega();
 
     @include media($medium-screen) {
       @include span-columns($medium-screen-col / 3);
@@ -63,6 +69,7 @@
 
   &--1_4 {
     @include span-columns($small-screen-col);
+    @include omega();
 
     @include media($medium-screen) {
       // @include span-columns($medium-screen-col / 4);
@@ -78,6 +85,7 @@
 
   &--3_4 {
     @include span-columns($small-screen-col);
+    @include omega();
 
     @include media($medium-screen) {
       // @include span-columns($medium-screen-col / 4 * 3);

@@ -2871,9 +2871,31 @@ html {
     .p-a-xxl {
       padding: 3rem; } }
 
+.m-r-0 {
+  margin-right: 0; }
+
+.m-l-0 {
+  margin-left: 0; }
+
+.m-t-0 {
+  margin-top: 0; }
+
+.m-b-0 {
+  margin-bottom: 0; }
+
+.m-r-auto {
+  margin-right: auto; }
+
+.m-l-auto {
+  margin-left: auto; }
+
 .m-h-auto {
   margin-left: auto;
   margin-right: auto; }
+
+.m-v-auto {
+  margin-top: auto;
+  margin-bottom: auto; }
 
 .width--wide {
   display: inline-block;
@@ -2889,12 +2911,14 @@ html {
         margin-right: 0; } }
 .width--full {
   display: inline-block;
-  clear: both; }
+  clear: both;
+  width: 100%; }
 .width--1_2 {
   float: left;
   display: block;
   margin-right: 7.4229703521%;
-  width: 100%; }
+  width: 100%;
+  margin-right: 0; }
   .width--1_2:last-child {
     margin-right: 0; }
   @media screen and (min-width: 720px) and (max-width: 850px) {
@@ -2916,6 +2940,7 @@ html {
   .width--1_2:last-of-type {
     margin-right: 0; }
 .width--2_3 {
+  margin-right: 0;
   margin-right: 0;
   float: left;
   display: block;
@@ -2945,7 +2970,8 @@ html {
   float: left;
   display: block;
   margin-right: 7.4229703521%;
-  width: 100%; }
+  width: 100%;
+  margin-right: 0; }
   .width--1_3:last-child {
     margin-right: 0; }
   @media screen and (min-width: 720px) and (max-width: 850px) {
@@ -2970,7 +2996,8 @@ html {
   float: left;
   display: block;
   margin-right: 7.4229703521%;
-  width: 100%; }
+  width: 100%;
+  margin-right: 0; }
   .width--1_4:last-child {
     margin-right: 0; }
   @media screen and (min-width: 850px) {
@@ -2987,7 +3014,8 @@ html {
   float: left;
   display: block;
   margin-right: 7.4229703521%;
-  width: 100%; }
+  width: 100%;
+  margin-right: 0; }
   .width--3_4:last-child {
     margin-right: 0; }
   @media screen and (min-width: 850px) {
@@ -3003,6 +3031,42 @@ html {
 
 .gray {
   color: #9f9f9f; }
+
+.black {
+  color: black; }
+
+.f--l {
+  float: left; }
+.f--r {
+  float: right; }
+
+.display--ib {
+  display: inline-block; }
+.display--b {
+  display: block; }
+
+.wrapped {
+  padding: 1.5rem; }
+  @media screen and (min-width: 720px) and (max-width: 850px) {
+    .wrapped {
+      float: left;
+      display: block;
+      margin-right: 2.8425855704%;
+      width: 79.4314828859%;
+      margin-left: 10.284258557%;
+      padding: 0; }
+      .wrapped:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 850px) {
+    .wrapped {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 82.9403914003%;
+      margin-left: 8.5298042998%;
+      padding: 0; }
+      .wrapped:last-child {
+        margin-right: 0; } }
 
 /* THIS IS WHERE TO EDIT THE ACTUAL BUTTON BEFORE YOU OPEN MENU. */
 .nav-collapse {
@@ -3315,8 +3379,24 @@ small {
   display: inline-block;
   width: 100%;
   font-size: .7em;
-  line-height: 1.2em;
+  line-height: 1.3em;
   margin: .5em 0; }
+  small ul, small ol {
+    margin: 1em 0 1.2em 1em;
+    font-size: 1.05em;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    list-style-position: outside;
+    padding-left: .5em;
+    line-height: 1.45em; }
+    small ul li, small ol li {
+      margin: .6em 0; }
+  small ul {
+    list-style-type: circle; }
+  small ol {
+    list-style-type: decimal; }
+
+.uppercase {
+  text-transform: uppercase; }
 
 /* Mozilla based browsers */
 ::-moz-selection {
@@ -3342,24 +3422,15 @@ small {
 .ta--c {
   text-align: center; }
 
-.f--l {
-  float: left; }
-.f--r {
-  float: right; }
-
-.display--ib {
-  display: inline-block; }
-.display--b {
-  display: block; }
-
 .twitter__container {
-  margin-bottom: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   display: block; }
 
 blockquote.twitter-tweet {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   display: inline-block;
-  padding: .5em 0;
+  padding: .5em;
   margin: 2em 0;
   max-width: 468px;
   border: #ddd 1px solid;
@@ -3368,16 +3439,19 @@ blockquote.twitter-tweet {
   border-radius: 5px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
   color: #000; }
-
-blockquote.twitter-tweet p {
-  margin: 0 5px 10px 0;
-  font-style: normal; }
-
-blockquote.twitter-tweet a[href^="https://twitter.com"] {
-  font-weight: normal;
-  color: #666;
-  font-size: 12px;
-  display: inline-block; }
+  blockquote.twitter-tweet a {
+    color: #666;
+    display: inline-block; }
+  blockquote.twitter-tweet p {
+    margin: 0 5px 10px 0;
+    font-style: normal;
+    font-size: .8em; }
+  blockquote.twitter-tweet date {
+    text-transform: uppercase;
+    font-size: .6em;
+    font-weight: normal;
+    display: block;
+    min-width: 300px; }
 
 .video__container {
   position: relative;
@@ -3482,9 +3556,9 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     list-style-position: outside;
     padding-left: .5em;
-    line-height: 1.3em; }
+    line-height: 1.45em; }
     .post__article ul li, .post__article ol li {
-      margin: .5em 0; }
+      margin: .6em 0; }
   .post__article ul {
     list-style-type: circle; }
   .post__article ol {
@@ -3511,6 +3585,12 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
       font-style: italic;
       font-weight: normal;
       font-size: .7em; }
+  .post__article .caption {
+    font-size: .68em;
+    margin-top: -.85em;
+    color: #9f9f9f;
+    display: block;
+    clear: both; }
   .post__article cite {
     display: block;
     margin-top: -.5em;
@@ -3884,7 +3964,7 @@ hr {
         display: block;
         margin-right: 3.5786636068%;
         width: 35.2633352458%;
-        margin-top: -1.35em; }
+        margin-top: -1.45em; }
         .home__blog__thumbnail:last-child {
           margin-right: 0; } }
     @media screen and (min-width: 850px) {
@@ -3893,7 +3973,7 @@ hr {
         display: block;
         margin-right: 2.8425855704%;
         width: 38.2944486578%;
-        margin-top: -1.4em; }
+        margin-top: -1.45em; }
         .home__blog__thumbnail:last-child {
           margin-right: 0; } }
     .home__blog__thumbnail img {
@@ -3972,7 +4052,9 @@ hr {
       .home__blog__details:last-child {
         margin-right: 0; } }
   .home__blog__date {
+    /* .home__blog__date */
     display: inline-block;
+    margin-bottom: .4em;
     color: #737373;
     font-size: .8em;
     width: 100%; }
@@ -4021,22 +4103,22 @@ hr {
       -webkit-transition: padding-left 0.2s ease-in 0s;
       -moz-transition: padding-left 0.2s ease-in 0s;
       transition: padding-left 0.2s ease-in 0s; }
-.home__press {
+.home__media {
   /* home */ }
-  .home__press__block {
+  .home__media__block {
     /* List item. */
     display: inline-block;
     width: 100%;
     border-bottom: 1px solid #e6e6e6;
     padding: .8em 0; }
-    .home__press__block:last-child {
+    .home__media__block:last-child {
       border-width: 0; }
-  .home__press__title {
+  .home__media__title {
     width: 100%;
     float: left;
     margin: .2em 0;
     color: black; }
-    .home__press__title:after {
+    .home__media__title:after {
       font-family: "FontAwesome";
       content: "\f08e";
       color: #b3b3b3;
@@ -4045,36 +4127,36 @@ hr {
       -webkit-transition: color 0.3s ease-out 0s;
       -moz-transition: color 0.3s ease-out 0s;
       transition: color 0.3s ease-out 0s; }
-  .home__press__organization {
+  .home__media__organization {
     width: 100%;
     float: left;
     font-size: .9em;
     font-style: italic;
     font-weight: bold;
     color: #9f9f9f; }
-  .home__press__date {
+  .home__media__date {
     width: 100%;
     float: left;
     font-size: .85em; }
-  .home__press__block {
+  .home__media__block {
     /* These are overrides for rounded-cornered version. */ }
-  .home__press__wrapper {
+  .home__media__wrapper {
     display: inline-block; }
     @media screen and (min-width: 720px) and (max-width: 850px) {
-      .home__press__wrapper {
+      .home__media__wrapper {
         float: left;
         display: block;
         margin-right: 3.5786636068%;
         width: 61.1580011475%; }
-        .home__press__wrapper:last-child {
+        .home__media__wrapper:last-child {
           margin-right: 0; } }
     @media screen and (min-width: 850px) {
-      .home__press__wrapper {
+      .home__media__wrapper {
         float: left;
         display: block;
         margin-right: 2.8425855704%;
         width: 58.8629657719%; }
-        .home__press__wrapper:last-child {
+        .home__media__wrapper:last-child {
           margin-right: 0; } }
 .home__currently__wrapper {
   width: 100%; }
@@ -4552,9 +4634,9 @@ hr {
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     list-style-position: outside;
     padding-left: .5em;
-    line-height: 1.3em; }
+    line-height: 1.45em; }
     .project__text-wrap ul li, .project__text-wrap ol li {
-      margin: .5em 0; }
+      margin: .6em 0; }
   .project__text-wrap ul {
     list-style-type: circle; }
   .project__text-wrap ol {
@@ -4991,6 +5073,98 @@ hr {
   .project__grid__thumbnail figure img {
     display: block;
     position: relative; }
+
+.gaming__content {
+  padding-top: 2em;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-bottom: 0em;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 0.4s;
+  -moz-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-timing-function: ease-;
+  -moz-animation-timing-function: ease-;
+  animation-timing-function: ease-;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+  .gaming__content::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (max-width: 719px) {
+    .gaming__content {
+      display: inline-block; } }
+  @media screen and (min-width: 720px) and (max-width: 850px) {
+    .gaming__content {
+      width: 80%;
+      padding: 0; } }
+  @media screen and (min-width: 850px) {
+    .gaming__content {
+      padding: 0;
+      width: 83.3333333333%; } }
+  @media screen and (max-width: 719px) {
+    .gaming__content {
+      display: inline-block; } }
+  @media screen and (min-width: 720px) and (max-width: 850px) {
+    .gaming__content {
+      width: 100%;
+      padding: 0; } }
+  @media screen and (min-width: 850px) {
+    .gaming__content {
+      padding: 0;
+      width: 100%; } }
+  .gaming__content--wide {
+    background: rgba(245, 245, 220, 0.8);
+    position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+    max-width: none;
+    padding-left: 16.6666666667%; }
+.gaming__header {
+  position: relative;
+  text-align: left;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+  .gaming__header span {
+    background: #fff;
+    padding: 0 .8em 0 0;
+    position: relative;
+    z-index: 1; }
+  .gaming__header:before {
+    background: #e6e6e6;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    width: 100%; }
+  .gaming__header:before {
+    left: 0; }
+  .gaming__header::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (max-width: 719px) {
+    .gaming__header {
+      display: inline-block; } }
+  @media screen and (min-width: 720px) and (max-width: 850px) {
+    .gaming__header {
+      width: 80%;
+      padding: 0; } }
+  @media screen and (min-width: 850px) {
+    .gaming__header {
+      padding: 0;
+      width: 83.3333333333%; } }
 
 .blog__content {
   padding-top: 2em;

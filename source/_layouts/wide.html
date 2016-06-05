@@ -1,0 +1,32 @@
+---
+layout: wide
+---
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <div class="{{ page.class }} wrapper">
+
+    {% include header.html %}
+    
+    <article class="{{ page.class }}__content page__content">
+
+      <header class="{{ page.class }}__header page__header">
+        <h1 class="page__title h1"><span>{{ page.title }}</span></h1>
+      </header>
+
+    <div class="{{ page.class }}__content--wide page__content--wide">
+       {{ content }}
+    </div>
+
+    </article>
+  
+    {% include footer.html %}
+
+  </div>
+
+  </body>
+
+</html>

@@ -15,6 +15,10 @@
    }
 }
 
+.wrapped {
+  @include wrapped;
+}
+
 @mixin content {
     padding-top: 2em;
     padding-left: $page-padding;

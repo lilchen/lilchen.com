@@ -20,9 +20,9 @@ layout: blog-subcategory
 
           {% for post in site.categories.blog %}
             {% if post.subcategories contains page.subcategory %}
-
+            
             {% include blog-full.html %}
-
+                
               {% endif %}
           {% endfor %}
 

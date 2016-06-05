@@ -5,7 +5,7 @@ description: Digging deeper into the design process of producing a stream overla
 thumbnail:   /blog/overlay-wireframe.jpg
 date:        2015-03-29 12:31:19
 tags:        overlay html css design
-featured:    true
+featured:    false
 condensed:   false
 subcategories: [gaming, design]
 ---
