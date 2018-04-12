@@ -1,0 +1,24 @@
+---
+layout:     travel-post
+title:      'Map test'
+description: 'A lengthy examination of the thoughts on my mind as of late.'
+thumbnail:   /blog/robot-arm.jpg
+date:        2016-8-13 12:31:19
+tags:        self
+featured:    false
+condensed:   false
+visible:     true
+subcategories: [self]
+
+---
+
+If you’re one of those people who believe that “_oversharing”_ is problematic, this entry is probably not meant for you. Everyone else, feel free to read onwards. This will be nothing more than a giant brain dump of recent thoughts. Consider it a public diary entry without any real direction.
+
+![injured rock climbing arm]({{ site.baseurl }}/img/blog/robot-arm.jpg)
+
+PS. I’ll have you know that I've still accomplished lots, despite my fluctuating happiness levels. "_Suck it up_," doesn't apply here because that's exactly what I've been doing of my own volition. The day I checked out of the emergency room after my fall, I hopped a flight to Boston to take part in a workshop and <a href="https://twitter.com/UbiGabe/status/723546106731323392" target="_blank">panel</a>. Two weeks later, I flew to Germany to give my first <a href="https://vimeo.com/165950912" target="_blank">design talk</a> at a conference. I actually wrote this piece on the plane ride there because I couldn't get it off my mind. And now that the conference has just wrapped, I am happy to inform you that this trip was very much a step in the right direction for my mental health (props to the very heartwarming <a href="http://beyondtellerrand.com" target="_blank">Beyond Tellerrand</a> conference).
+
+<div class="width--wide">
+  <img src="{{ site.baseurl }}/img/blog/smashsisters-group.jpg" alt="Smash Sisters group">
+  <p class="caption">A group photo from Friday, the casual crew battles night.</p>
+</div>

@@ -3,7 +3,7 @@ layout:     project
 title:      "TED Talks Extras Bar"
 date:       2000-01-01 22:24:46
 published:  true
-featured: true
+featured: false
 
 project:
   tags:     [web, user-interface]

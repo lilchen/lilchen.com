@@ -68,7 +68,7 @@ class: home
         {% if highlight.featured == true %}
         <li class="home__media__block">
           <time class="home__media__date">{{ highlight.date | date: '%B %d, %Y' }}</time>
-          <a class="h5 home__media__title" href="{{ media.url }}" target="_blank"><cite>{{ highlight.title }}
+          <a class="h5 home__media__title" href="{{ highlight.url }}" target="_blank"><cite>{{ highlight.title }}
           </cite></a>
           <span class="home__media__organization">{{ highlight.organization }}</span>
         </li> 

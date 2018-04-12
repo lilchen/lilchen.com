@@ -3,7 +3,7 @@ layout:     project
 title:      "Super Smash Bros. Tournament Admin Panel"
 date:       2500-01-01 22:24:46
 published:  true
-featured: false
+featured:   true
 
 project:
   tags:     [user-interface, design consulting]
